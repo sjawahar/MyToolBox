@@ -1,0 +1,1227 @@
+############# KDocuments.java
+public class KDocuments {
+############# DPDocInfoDBCache.java
+public class DPDocInfoDBCache extends DocInfoDBCache implements IDPDocInfoCache
+############# DPDocInfoDBCache.java
+public class DPDocInfoDBCache extends DocInfoDBCache implements IDPDocInfoCache
+public class DPDocInfoDBCache extends DocInfoDBCache implements IDPDocInfoCache
+############# Indexer.java
+public class Indexer {
+private void deleteDuplicateDocIfExist(String delExternalId, String delSliceid) throws Exception {
+
+public IndexingStats status()
+
+############# DocViewFeedbackTabPresenter.java
+public class DocViewFeedbackTabPresenter extends PresenterWidget<DocViewFeedback
+############# GridConstants.java
+public interface GridConstants  extends CommonConstants {
+public String lockedTime();
+
+public String noDataToDisplay();
+
+############# BaseGridPresenter.java
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+public void onSuccess(Void result) {
+
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+public void setDisabled(boolean isDisabled) {}
+
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+public void onSuccess(List<UserItem> results) {
+
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+############# CFGridPresenter.java
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+private boolean isDisabled;
+
+private Boolean openFeedback = false;
+
+private UMSelectorDialogPresenter umselectorDialog;
+
+private UserSelectorDialogPresenter userselectorDialog;
+
+public CFGridPresenter(EventBus eventBus, MyView view, MyProxy proxy,
+
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+public void setViewName(String gridType);
+
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+public UMSelectorDialogPresenter getUMSelector() {
+
+public UserSelectorDialogPresenter getUserSelector() {
+
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+public void setCurrentViewId(String viewId) {
+
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+############# SearchConstants.java
+public interface SearchConstants extends Constants{
+public String noDataToDisplay();
+
+############# UserSelectorDialogPresenter.java
+public class UserSelectorDialogPresenter extends PresenterWidget<UserSelectorDia
+public void onClick(ClickEvent event) {
+
+############# LCMGridPresenter.java
+public class LCMGridPresenter extends BaseGridPresenter<LCMGridPresenter.MyView,
+############# CEConstants.java
+public interface CEConstants extends CAConstants {
+public String deletePreviousVersion();
+
+public String noDataToDisplay();
+
+public String auditTrail();
+
+############# HistoryTabPresenter.java
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public void onSuccess(GridViewData data) {					
+
+public void onSuccess(GridViewData data) {			
+
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public void onSuccess(List<UserItem> results) {
+
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# AUtil.java
+public class AUtil {
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+private GridViewData prepareData(List<ViewColumnData> columns, GridData gridData, ResourceBundle rb, 
+
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+private String prepareUMData(List<String> itemIds, String languageId, Locale locale ) {
+
+private String prepareUMData(List<String> itemIds, String languageId, Locale locale, HashMap<String,String> params ) {
+
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# SearchPresenter.java
+public class SearchPresenter {
+public void onFailure( Throwable e ) {                
+
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# SearchAction.java
+public class SearchAction extends BaseAction implements Action<SearchActionResul
+private int portionSize;
+
+private boolean isExport = false;
+
+public class SearchAction extends BaseAction implements Action<SearchActionResul
+public boolean isExport() {
+
+public void setExport(boolean isExport) {
+
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+private ArrayList<SearchDoc> parseDocuments(GSResponse response, KUser user, Locale locale, SearchAction action  ) throws Exception {
+
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# GroupManager.java
+public class GroupManager {
+public synchronized void addGroupUsersForImport(int groupID, int[] userIDs, ExpertiseProfile expProfile, boolean isGroup)
+
+public class GroupManager {
+public synchronized void removeGroupUsersForImport(int groupID, int[] userIDs, ExpertiseProfile expProfile, boolean isGroup)
+
+public User[] getGroupUsers(int groupID) throws DataBackendException {
+
+############# UserDao.java
+public interface UserDao extends Dao {
+public void setExpertiseProfile(Transaction trans, int objectId, ExpertiseProfile profile) throws DataBackendException;	
+
+public ExpertiseProfile getExpertiseProfile(Connection conn, int objectId) throws DataBackendException;
+
+public void deleteExpertiseProfile(Transaction trans, int objectId, ExpertiseProfile profile) throws DataBackendException;
+
+public void deleteExpertiseProfile(Transaction trans, int objectId) throws DataBackendException;
+
+public int[] getAllExpertIds(Connection conn) throws DataBackendException;
+
+public int[] getUserIdsByReputationLevel(Connection conn, String objectId) throws DataBackendException;
+
+############# UserJdbcDao.java
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public void deleteExpertiseProfile(Transaction trans, int objectId, ExpertiseProfile profile) throws DataBackendException {
+
+public void deleteExpertiseProfile(Transaction trans, int objectId) throws DataBackendException {
+
+############# UserManager.java
+public class UserManager {
+public void deleteExpertiseProfile(int objectId) throws IOException {
+
+public void setExpertiseProfile(int objectId, ExpertiseProfile profile) throws IOException {
+
+public class UserManager {
+public class UserManager {
+############# UserGroupUtil.java
+public class UserGroupUtil {
+private void updateUser(ExtendedUser extUser) throws Exception, UserExistException {
+
+public class UserGroupUtil {
+public class UserGroupUtil {
+############# KDCReaderServiceImpl.java
+public class KDCReaderServiceImpl implements IKDCReaderService {
+public class KDCReaderServiceImpl implements IKDCReaderService {
+############# KDCMooshikaDBImpl.java
+public class KDCMooshikaDBImpl extends DoveIKDCMooshikaServer implements JDoveSe
+public KDCDocStreamDTO readDocAsStream(String [] tsids, String fsidStr, String extId, String sliceId)throws IOException {
+
+############# IKDCMooshika.java
+public interface IKDCMooshika {
+public long docExists(String[] tsids,String extId, String sliceId) throws IOException;
+
+public KDCDocStreamDTO readDocsAsStream(String [] tsids, String fsid, long[] docids)throws IOException;
+
+public KDCDocStreamDTO readDocAsStream(String [] tsids, String fsid, String extId, String sliceId)throws IOException;
+
+public long getVersion(String tsid)throws IOException;
+
+############# KDCReaderServiceImpl.java
+public class KDCReaderServiceImpl implements IKDCReaderService {
+public class KDCReaderServiceImpl implements IKDCReaderService {
+private KDCDocumentDTO convertByteArrayToKDCDocument(byte[] docData) throws IOException, ClassNotFoundException {
+
+############# KDCMooshikaDBImpl.java
+public class KDCMooshikaDBImpl extends DoveIKDCMooshikaServer implements JDoveSe
+public KDCDocStreamDTO readDocAsStream(String [] tsids, String fsidStr, String extId, String sliceId)throws IOException {
+
+public class KDCMooshikaDBImpl extends DoveIKDCMooshikaServer implements JDoveSe
+private byte[] convertKDCDocToByteArray(KDCDocumentDTO document) throws IOException {
+
+############# UserDao.java
+public interface UserDao extends Dao {
+public FavoriteDocument getFavoriteSingleDocument(Connection conn,int itemId) throws DataBackendException;
+
+public void deleteFavoriteDoc(Transaction trans, String newTitle) throws DataBackendException;
+
+public void setExpertiseProfile(Transaction trans, int objectId, ExpertiseProfile profile) throws DataBackendException;
+
+public void setExpertiseProfile(Transaction trans, int objectId, ExpertiseProfile profile) throws DataBackendException;	
+
+public ExpertiseProfile getExpertiseProfile(Connection conn, int objectId) throws DataBackendException;
+
+public void deleteExpertiseProfile(Transaction trans, int objectId, ExpertiseProfile profile) throws DataBackendException;
+
+public int[] getAllExpertIds(Connection conn) throws DataBackendException;
+
+public int[] getUserIdsByReputationLevel(Connection conn, String objectId) throws DataBackendException;
+
+############# UserJdbcDao.java
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public void deleteExpertiseProfile(Transaction trans, int objectId, ExpertiseProfile profile) throws DataBackendException {
+
+public ExpertiseProfile getExpertiseProfile(Connection conn, int objectId) throws DataBackendException {
+
+############# UserManager.java
+public class UserManager {
+public void setExpertiseProfile(int objectId, ExpertiseProfile profile) throws IOException {
+
+public class UserManager {
+public void setExpertiseProfileAll(int objectId, ExpertiseProfile profile) throws IOException {
+
+############# DocViewFeedbackTabPresenter.java
+public class DocViewFeedbackTabPresenter extends PresenterWidget<DocViewFeedback
+public void selectSavedSearch(String arg0) {}
+
+public void setDisabledSearchButton(boolean arg0) {}
+
+public void showSearchSpin(boolean showSpin){}
+
+public void setDisabledSaveSearchButton(boolean arg0) {}
+
+############# BaseGridPresenter.java
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+public BaseGridPresenter(EventBus eventBus, V view, Proxy_ proxy) {
+
+private Logger logger = Logger.getLogger( BaseGridPresenter.class.getName() );	
+
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+public class BaseGridPresenter<V extends BaseGridPresenter.MyView, Prox
+public void onSuccess(GridViewData data) {
+
+############# CFGridPresenter.java
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+public void setResults(ArrayList<SearchDoc> documents, String stateId, String searchText, int portion,
+
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+public class CFGridPresenter extends BaseGridPresenter<CFGridPresenter.MyView, C
+public void clearSearchWithinText() {
+
+public void showGridSpin(boolean showSpin){
+
+public void setSearchSuggestion(String suggestionText){
+
+############# SearchPresenter.java
+public class SearchPresenter {
+public void selectSavedSearch(String id);
+
+public void setDisabledSearchButton(boolean disabled);
+
+public void setDisabledSaveSearchButton(boolean disabled);
+
+public class SearchPresenter {
+public ArrayList<HandlerRegistration> addSectionClickHandler(ClickHandler handler );
+
+public void showSearchSpin(boolean showSpin);
+
+public interface SearchResults {
+
+public class SearchPresenter {
+public void clearData( boolean isInitialSearch );
+
+public HandlerRegistration addSearchWithinClickHandler(com.smartgwt.client.widgets.events.ClickHandler handler );
+
+public String getSearchWithinText();
+
+public void showGridSpin(boolean showSpin);
+
+public void clearSearchWithinText();
+
+public void setSearchSuggestion(String suggestionText);
+
+public void hideSearchSuggestion();
+
+public class SearchPresenter {
+public void onClick(ClickEvent event) {
+
+public class SearchPresenter {
+public void onKeyPress(KeyPressEvent event) {
+
+public class SearchPresenter {
+public void onSuccess(SearchInfoActionResult result) {
+
+public class SearchPresenter {
+public void openSavedSearch(final Integer id){
+
+public void openSavedSearch(final Integer id){		
+
+public class SearchPresenter {
+public class SearchPresenter {
+private void onSearchAction(final boolean newSearch, Integer portion) {
+
+public class SearchPresenter {
+public void onSuccess( SearchActionResult result ) {
+
+public class SearchPresenter {
+public class SearchPresenter {
+############# SearchEntryWidget.java
+public class SearchEntryWidget extends LazyCanvas<VLayout> implements SearchPres
+public class SearchEntryWidget extends LazyCanvas<VLayout> implements SearchPres
+public class SearchEntryWidget extends LazyCanvas<VLayout> implements SearchPres
+public void showSearchSpin(boolean showSpin)
+
+public class SearchEntryWidget extends LazyCanvas<VLayout> implements SearchPres
+public void setDisabledSearchButton(boolean disabled){
+
+public void setDisabledSaveSearchButton(boolean disabled){
+
+############# SearchResultsWidget.java
+public class SearchResultsWidget extends LazyCanvas<VLayout> implements SearchPr
+public void showGridSpin(boolean showSpin){
+
+public void clearSearchWithinText() {
+
+public class SearchResultsWidget extends LazyCanvas<VLayout> implements SearchPr
+public void setResults(ArrayList<SearchDoc> documents, String stateId, String searchText, int portion, int totalDocs, int portionSize, String dialogError) {		
+
+public void setResults(ArrayList<SearchDoc> documents, String stateId, String searchText, int portion, int totalDocs, int portionSize, String dialogError) {	
+
+############# LCMGridPresenter.java
+public class LCMGridPresenter extends BaseGridPresenter<LCMGridPresenter.MyView,
+public interface MyView extends BaseGridPresenter.MyView {
+
+public class LCMGridPresenter extends BaseGridPresenter<LCMGridPresenter.MyView,
+public void setResults(ArrayList<SearchDoc> documents, String stateId, String searchText, int portion,
+
+public class LCMGridPresenter extends BaseGridPresenter<LCMGridPresenter.MyView,
+public void clearData( boolean isInitialSearch ) {
+
+public class LCMGridPresenter extends BaseGridPresenter<LCMGridPresenter.MyView,
+public String getSearchWithinText() {
+
+public String getSearchWithinText() {		
+
+public void clearSearchWithinText() {
+
+public void clearSearchWithinText() {		
+
+public void showGridSpin(boolean showSpin){
+
+############# CEFeedbackTabPresenter.java
+public class CEFeedbackTabPresenter extends PresenterWidget<CEFeedbackTabPresent
+public void selectSavedSearch(String arg0) {}
+
+public void setDisabledSearchButton(boolean arg0) {}
+
+public void showSearchSpin(boolean showSpin){}
+
+public void setDisabledSaveSearchButton(boolean arg0) {}
+
+public ArrayList<String> getSegmentFilterSelections(String segmentType) {
+
+############# ContentEditorPresenter.java
+public class ContentEditorPresenter extends PresenterWidget<ContentEditorPresent
+public class ContentEditorPresenter extends PresenterWidget<ContentEditorPresent
+public void onSuccess(String lockedBy) {				
+
+public void onSuccess(String lockedBy) {		
+
+############# HistoryTabPresenter.java
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public interface MyView extends View{
+
+public void setResources(HashMap<String, String> timeDateResources);
+
+public void setPreviousVersions(List<PreviousVersionItem> versions);		
+
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public void deletePreviousVersion(int version);
+
+public GenericGrid getAuditGrid();
+
+public ListGrid getVersionGrid();
+
+public void setSuggestion(SuggestionInfo suggestionInfo);
+
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+private void buildAuditGridViewHeader(){
+
+private void buildAuditGridViewHeader(){	
+
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public void onSuccess(GridViewState gridViewState) {
+
+public void onSuccess(GridViewState gridViewState) {					
+
+private void populatePreviousVersions(){
+
+private void populatePreviousVersions(){	
+
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public void onSuccess(List<PreviousVersionItem> result) {
+
+private void populateAuditGrid(Integer requestPageNumber){
+
+public class HistoryTabPresenter extends PresenterWidget<HistoryTabPresenter.MyV
+public void onSuccess(GridViewData data) {
+
+public void onSuccess(GridViewData data) {					
+
+############# ToolBarPresenter.java
+public class ToolBarPresenter extends PresenterWidget<ToolBarPresenter.MyView> i
+public interface MyView extends View {
+
+public void setContentEditorMode(int contentEditorMode);
+
+public ToolStripButton getAcceptBtn();
+
+public UIToolStripMenuButton getBtnSaveMenu();
+
+public ToolStripButton getSaveBtn();
+
+public ToolStripButton getHelpBtn();
+
+public MenuItem getDeleteDraftItem();
+
+public class ToolBarPresenter extends PresenterWidget<ToolBarPresenter.MyView> i
+public void setSaveButtonsEnabled(boolean isEnabled) {
+
+############# HistoryTabView.java
+public class HistoryTabView extends ViewImpl implements HistoryTabPresenter.MyVi
+public class HistoryTabView extends ViewImpl implements HistoryTabPresenter.MyVi
+public ListGrid getVersionGrid(){
+
+public void setInSlot(Object slot, Widget content) {
+
+############# ToolBarView.java
+public class ToolBarView extends ViewImpl implements ToolBarPresenter.MyView {
+public UIToolStripMenuButton getBtnSaveMenu() {
+
+public UIMenuItem getSaveaAndReleaseMenuItem() {
+
+############# DocumentSlicesPresenter.java
+public class DocumentSlicesPresenter extends PresenterWidget<DocumentSlicesPrese
+public void selectSavedSearch(String arg0) {}
+
+public void setDisabledSearchButton(boolean arg0) {}
+
+public void showSearchSpin(boolean showSpin){}
+
+public void setDisabledSaveSearchButton(boolean arg0) {}
+
+############# KDCReaderServiceImpl.java
+public class KDCReaderServiceImpl implements IKDCReaderService {
+############# DocViewFeedbackTabPresenter.java
+public class DocViewFeedbackTabPresenter extends PresenterWidget<DocViewFeedback
+public void selectSavedSearch(String arg0) {}
+
+public void setDisabledSearchButton(boolean arg0) {}
+
+public void setDisabledSaveSearchButton(boolean arg0) {}
+
+############# SearchPresenter.java
+public class SearchPresenter {
+public void setSavedSearches(ArrayList<FilterValue> searches);
+
+public void selectSavedSearch(String id);
+
+public void setDisabledSearchButton(boolean disabled);
+
+public void setDisabledSaveSearchButton(boolean disabled);
+
+public class SearchPresenter {
+public void onClick(ClickEvent event) {
+
+public class SearchPresenter {
+public void onSuccess( SearchActionResult result ) {
+
+public class SearchPresenter {
+public class SearchPresenter {
+############# SearchEntryWidget.java
+public class SearchEntryWidget extends LazyCanvas<VLayout> implements SearchPres
+public void setDisabledSearchButton(boolean disabled){
+
+public void setDisabledSaveSearchButton(boolean disabled){
+
+############# CEFeedbackTabPresenter.java
+public class CEFeedbackTabPresenter extends PresenterWidget<CEFeedbackTabPresent
+public void selectSavedSearch(String arg0) {}
+
+public void setDisabledSearchButton(boolean arg0) {}
+
+public void setDisabledSaveSearchButton(boolean arg0) {}
+
+############# ContentEditorPresenter.java
+public class ContentEditorPresenter extends PresenterWidget<ContentEditorPresent
+public class ContentEditorPresenter extends PresenterWidget<ContentEditorPresent
+public void onFailure(Throwable e) {
+
+public class ContentEditorPresenter extends PresenterWidget<ContentEditorPresent
+public void onSuccess(String lockedBy) {				
+
+############# DocumentSlicesPresenter.java
+public class DocumentSlicesPresenter extends PresenterWidget<DocumentSlicesPrese
+public void selectSavedSearch(String arg0) {}
+
+public void setDisabledSearchButton(boolean arg0) {}
+
+public void setDisabledSaveSearchButton(boolean arg0) {}
+
+############# AssignTemplatePresenter.java
+public class AssignTemplatePresenter extends PresenterWidget<AssignTemplatePrese
+public void execute(Boolean shouldContinue) {
+
+public class AssignTemplatePresenter extends PresenterWidget<AssignTemplatePrese
+public void execute(Boolean shouldContinue) {
+
+############# MessageDialog.java
+public class MessageDialog{
+public static byte BUTTON_2 = 2;
+
+public static byte BUTTON_3 = 3;
+
+public static void askDialog2ButtonsChange( String message, String button1, String button2, byte defaultbutton,  final BooleanCallback callback){
+
+public static void askDialog2Buttons( String message, String button1, String button2, byte defaultbutton,  final BooleanCallback callback){
+
+public network or mailicious hotspot), then when using a link to the ckeditor.com website it was possible for the attacker to change the current URL of the opening page, even if the opening page was protected with SSL.
+
+publicly available. Read more about how to set up the environment and execute tests in the [CKEditor Testing Environment](http://docs.ckeditor.com/#!/guide/dev_tests) guide.
+
+private parts use CSS reset.
+
+public license practices.  Many people have made
+
+public license practices.  Many people have made
+
+public function editor($name, $value = "", $config = array(), $events = array())
+
+public function replace($id, $config = array(), $events = array())
+
+public function replaceAll($className = null)
+
+public function addEventHandler($event, $javascriptCode)
+
+public function clearEventHandlers($event = null)
+
+public function addGlobalEventHandler($event, $javascriptCode)
+
+public function clearGlobalEventHandlers($event = null)
+
+private function script($js)
+
+private function configSettings($config = array(), $events = array())
+
+private function returnGlobalEvents()
+
+private function init()
+
+private function ckeditorPath()
+
+private function jsEncode($val)
+
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+############# UMPageletBrowseModelProvider.java
+public class UMPageletBrowseModelProvider extends UMBasicTreeModelProvider {
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void onChanged(ChangedEvent event) {
+
+public void onChanged(ChangedEvent event) {
+
+############# DocUTCompare.java
+public class DocUTCompare {
+private void getIdWithName(ContentArea template){
+
+private void compareContentAreas() {		
+
+############# ViewBestBetAction.java
+public class ViewBestBetAction extends Action {
+############# DocUTCompare.java
+public class DocUTCompare {
+private void getIdWithName(ContentArea template){
+
+private void compareContentAreas() {		
+
+############# KBestBet.java
+public class KBestBet {
+public String getRFId() {
+
+public String getMicrositeId() {
+
+############# KBestBetImpl.java
+public class KBestBetImpl {
+private String forumName;
+
+private String rfId;
+
+private String micrositeId;
+
+public KBestBetImpl() {
+
+public class KBestBetImpl {
+public String getMicrositeId() {
+
+public void setMicrositeId(String micrositeId) {
+
+############# RetrievalResponse.java
+public class RetrievalResponse {
+public RetrievalResponse(Document visibleState, KUser user) throws Exception {
+
+public class RetrievalResponse {
+############# DocUtil.java
+public class DocUtil {
+public static KBestBet parseBestBet(Element e, KUser user) throws Exception {
+
+############# ViewBestBetAction.java
+public class ViewBestBetAction extends Action {
+public class ViewBestBetAction extends Action {
+public static void logEventViewBB(HttpServletRequest request, String bbId, String docId, String sliceId, String bbCategory, Class _class ){
+
+public class ViewBestBetAction extends Action {
+############# RecommendationWidget.java
+public class RecommendationWidget extends GenericWidget {
+############# GSWidget.java
+public class GSWidget extends GenericWidget {
+############# KDocument.java
+public class KDocument {
+public class KDocument {
+############# ProcessRequest.java
+public class ProcessRequest {
+public void setMsid(String msid) {
+
+public String getMsid() {
+
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+private static final int RATING_MAX = 100;
+
+private static final int RATING_ROUNDING = (RATING_MAX - RATING_MIN) / (5-1) / 2;
+
+private static final int RATING_ZERO = toRarRating(0);
+
+public Class<SearchAction> getActionType() {
+
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+private ArrayList<SearchDoc> parseDocuments(GSResponse response, KUser user, Locale locale, SearchAction action  ) throws Exception {
+
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public DialogRequest buildSearchRequest(SearchAction action, KUser user ) throws Exception {
+
+public DialogRequest buildSearchRequestForFeedbacks(SearchAction action, KUser user, AuthoringControls authControls ) throws Exception {
+
+public DialogRequest buildSearchRequest(SearchAction action, KUser user, boolean isFeedback, Set<String> permDocIds ) throws Exception {
+
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+private void applyAuthoringControls(AuthoringControls authControls, SearchAction action, ViewState viewState,
+
+private TimeZone getClientTimeZone() {
+
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+private final static Map<String, DialogRequest.FIELDS> fieldToSortField = new HashMap<String, DialogRequest.FIELDS>();
+
+############# DialogRequest.java
+public class DialogRequest extends com.kanisa.services.DialogRequest
+private List<String> workflowStates;
+
+private Set<String> authoredDocIds;
+
+private Set<String> ksmDocIds;
+
+private Map<String,List<String>> userConstrains;
+
+public class DialogRequest extends com.kanisa.services.DialogRequest
+public Set<String> getAuthoredDocIds() {
+
+public void setAuthoredDocIds(Set<String> authoredDocIds) {
+
+public Set<String> getKsmDocIds() {
+
+public void setKsmDocIds(Set<String> ksmDocIds) {
+
+public class DialogRequest extends com.kanisa.services.DialogRequest
+public class DialogRequest extends com.kanisa.services.DialogRequest
+private void applyDocIdsForAuthored(Element constraints) {
+
+private void applyDocIdsForKsm(Element constraints) {
+
+private void addTokens() throws Exception
+
+############# AuthJdbcDao.java
+public class AuthJdbcDao extends BaseJdbcDao implements AuthDao {
+public int createPermission(Transaction trans, Permission perm)
+
+############# WorkerThread.java
+public class WorkerThread extends Thread
+############# ContentEditorServiceImpl.java
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+############# KDocument.java
+public class KDocument {
+private String title;
+
+private String escapedTitle;
+
+private String escapedSynopsis;
+
+private String externalId;
+
+public class KDocument {
+public String getEscapedSynopsis() {
+
+public String getExternalId() {
+
+############# AuthoringMultipleOperationsServiceImpl.java
+public class AuthoringMultipleOperationsServiceImpl extends RemoteServiceServlet
+############# ContentEditorServiceImpl.java
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+############# LoginAction.java
+public class LoginAction extends Action {
+############# SearchHelper.java
+public void setNewSearch(boolean ns) {
+############# SearchParameter.java
+public class SearchParameter extends RequestParameter{
+public void setParameterDefDateValues(HttpServletRequest request, Date from, Date to){
+
+public class SearchParameter extends RequestParameter{
+############# RequestParameter.java
+public class RequestParameter {
+public void setParameterDefValues(Collection tmpdef) {
+
+public void setParameterDefValues(Collection<String> tmpdef) {
+
+############# SearchHelper.java
+public void setNewSearch(boolean ns) {
+############# SearchParameter.java
+public class SearchParameter extends RequestParameter{
+public String getRadioNoneName() {
+
+public void setParameterDefValues(HttpServletRequest req) {
+
+public class SearchParameter extends RequestParameter{
+############# DocDAO.java
+public interface DocDAO {
+public void UpdateSequence(String tableName, int next_id);
+
+public TimeStampStruct GetMonthsToKeepAutoFillQueries();
+
+public long getMaxQueryInternalId();
+
+############# DocDAOImpl.java
+public class DocDAOImpl extends JdbcDaoSupport implements DocDAO {
+private static final String FIELD_LASTFEEDBACKDATE = "LASTFEEDBACKDATE";
+
+private static final String FIELD_LASTUSEDDATE = "LASTUSEDDATE";
+
+public void updateDoc(DocInfo docInfo) {
+
+public class DocDAOImpl extends JdbcDaoSupport implements DocDAO {
+public long getMaxQueryInternalId() {
+
+############# DPMainServiceImpl.java
+public class DPMainServiceImpl implements IDPMainService, IDPWorkLFCListener {
+public String processBatch(String batchDcn, boolean isFile, boolean isAsynch) throws IOException {
+
+############# KFieldDocCollector.java
+public class KFieldDocCollector extends KHitCollector {
+private boolean countSlices;
+
+private Set<String> draftIds = null;
+
+private Set<String> removedDocIds = null;
+
+public class KFieldDocCollector extends KHitCollector {
+public TopDocs getHits(int startDoc, int portionSize) throws IOException {
+
+public class KFieldDocCollector extends KHitCollector {
+public class KFieldDocCollector extends KHitCollector {
+public class KFieldDocCollector extends KHitCollector {
+############# LCMFunctionTabPresenter.java
+public class LCMFunctionTabPresenter extends Presenter<LCMFunctionTabPresenter.M
+public void onClick(ClickEvent event) {
+
+############# KFieldDocCollector.java
+public class KFieldDocCollector extends KHitCollector {
+############# SearchEntryWidget.java
+public class SearchEntryWidget extends GenericWidget {
+############# SearchHelper.java
+public class SearchHelper implements IfSearchHelper {
+private String default_data_language;
+
+private String searchType;
+
+private String actionType;
+
+private boolean isgsmode;
+
+private boolean isadvmode;
+
+private boolean isnewsearch;
+
+public class SearchHelper implements IfSearchHelper {
+public void setSearchType( String searchType ) {
+
+public String getActionType() {
+
+public void setActionType( String actionType ) {
+
+public class SearchHelper implements IfSearchHelper {
+############# ProcessRequest.java
+public class ProcessRequest {
+public class ProcessRequest {
+############# LCMFunctionTabPresenter.java
+public class LCMFunctionTabPresenter extends Presenter<LCMFunctionTabPresenter.MyView, LCMFunctionTabPresenter.MyProxy> implements ButtonTabRefreshHandler{
+
+############# LCMFunctionTabPresenter.java
+public class LCMFunctionTabPresenter extends Presenter<LCMFunctionTabPresenter.M
+public void onClick(ClickEvent event) {
+
+############# SearchHelper.java
+public class SearchHelper implements IfSearchHelper {
+public class SearchHelper implements IfSearchHelper {
+public class SearchHelper implements IfSearchHelper {
+private void addFilterParameter(SearchParameter par, Collection defitems,Locale locale,Message mes) {
+
+private void addFilterParameter(SearchParameter par,MicrositeSession mss, Locale locale,Message mes) {
+
+public class SearchHelper implements IfSearchHelper {
+############# CMConstants.java
+public interface CMConstants extends CAConstants {
+public String find();
+
+public String matchCase();
+
+public String replaceWith();
+
+############# FindReplaceHandler.java
+public class FindReplaceHandler implements ProcessHandler {
+public FindReplaceHandler(FindReplaceDialogPresenter findReplaceDialogPresenter) {
+
+public void beforeStart(CMConstants resources, PresenterWidget presenter, AsyncCallback<Object> callback) {
+
+public class FindReplaceHandler implements ProcessHandler {
+public void processNextItem(String objectId, AsyncCallback<String> callback) {
+
+############# FindReplaceDialogPresenter.java
+public class FindReplaceDialogPresenter extends PresenterWidget<FindReplaceDialogPresenter.MyView> implements UiHandlers  {
+
+private Logger logger = Logger.getLogger(FindReplaceDialogPresenter.class.getName() );	
+
+private Boolean matchCaseFlag = false;
+
+public interface MyView extends PopupView {
+
+public CMConstants getResources();
+
+public class FindReplaceDialogPresenter extends PresenterWidget<FindReplaceDialo
+public String getReplaceWithText();
+
+public void setFindText(String value);
+
+public void setReplaceWithText(String value);
+
+public UICheckboxItem getMatchCaseCheckBox();
+
+public UITextItem getFindItem();
+
+public UITextItem getReplaceItem();
+
+public class FindReplaceDialogPresenter extends PresenterWidget<FindReplaceDialo
+public void onChanged(ChangedEvent event) {
+
+public void onClick(ClickEvent event) {
+
+public class FindReplaceDialogPresenter extends PresenterWidget<FindReplaceDialo
+public class FindReplaceDialogPresenter extends PresenterWidget<FindReplaceDialo
+private void clearCheckBoxItems(){
+
+public void setCallback(AsyncCallback<String> callback) {
+
+public class FindReplaceDialogPresenter extends PresenterWidget<FindReplaceDialo
+public Boolean getMatchCaseFlag() {
+
+private native boolean validateContentNotParsedSymbols(String str) /*-{
+
+public class FindReplaceDialogPresenter extends PresenterWidget<FindReplaceDialo
+############# FindReplaceDialogView.java
+public class FindReplaceDialogView extends	ApplicationPopupViewImpl<FindReplaceD
+public class FindReplaceDialogView extends	ApplicationPopupViewImpl<FindReplaceD
+public UICheckboxItem getMatchCaseCheckBox() {
+
+public Button getBtnContinue() {
+
+############# AuthoringMultipleOperationsService.java
+public interface AuthoringMultipleOperationsService extends RemoteService {
+############# AuthoringMultipleOperationsServiceAsync.java
+public interface AuthoringMultipleOperationsServiceAsync {
+############# AuthoringMultipleOperationsServiceImpl.java
+public class AuthoringMultipleOperationsServiceImpl extends RemoteServiceServlet
+public String executeFindReplaceFunction(String id, String find, String replaceWith) throws IllegalArgumentException {
+
+public String executeFindReplaceFunction(String id, String find, String replaceWith,boolean isExactReplace) throws IllegalArgumentException {
+
+public class AuthoringMultipleOperationsServiceImpl extends RemoteServiceServlet
+private String find;
+
+private String replaceWith;		
+
+private boolean isExactReplace;
+
+public FindReplaceTextExecutor(String find, String replaceWith) {			
+
+public FindReplaceTextExecutor(String find, String replaceWith,boolean isExactReplace) {			
+
+############# AuthoringBulkChangesService.java
+public interface AuthoringBulkChangesService {
+public void changeTemplate(String documentId, int versionId, String modifier, int templateId) throws Exception;		
+
+public boolean findAndReplace(String documentId, int versionId, String modifier, String find, String replaceWith) throws Exception;
+
+public boolean findAndReplace(String documentId, int versionId, String modifier, String find, String replaceWith,boolean isExactReplace) throws Exception;
+
+public void changeSegments(String documentId, int versionId, String modifier, String[] addSegments, String[] removeSegments) throws Exception;
+
+############# AuthoringBulkChangesServiceImpl.java
+public class AuthoringBulkChangesServiceImpl implements AuthoringBulkChangesServ
+public boolean findAndReplace(String documentId, int versionId, String modifier, String find, String replaceWith) throws Exception {
+
+public boolean findAndReplace(String documentId, int versionId, String modifier, String find, String replaceWith,boolean isExactReplace) throws Exception {
+
+############# MAFindReplace.java
+public class MAFindReplace extends MassAction{
+
+private String find;
+
+private String replace;
+
+private boolean isExactReplace;
+
+public String getFind(){
+
+public class MAFindReplace extends MassAction{
+public void setReplace(String replace){
+
+public void setIsExactReplace(boolean isExactReplace){
+
+public boolean getIsExactReplace(){
+
+############# MAFindReplaceContentHandler.java
+public class MAFindReplaceContentHandler extends DefaultHandler {
+private boolean isDocContentEqual = false;
+
+private String replace = "";
+
+private boolean isExactReplace;
+
+private StringBuffer data = new StringBuffer();
+
+private StringBuffer inProgressChars = new StringBuffer();
+
+public MAFindReplaceContentHandler(String find, String replace, String[] skipTags) {
+
+public MAFindReplaceContentHandler(String find, String replace, String[] skipTags,boolean isExactReplace) {
+
+public class MAFindReplaceContentHandler extends DefaultHandler {
+public void characters(char[] ch, int start, int length) throws SAXException {
+
+public class MAFindReplaceContentHandler extends DefaultHandler {
+private String getReplaceString(String find, String replace) {
+
+############# MAFindReplaceHandler.java
+public class MAFindReplaceHandler extends MassActionHandler {
+private void replaceTitle(Doc document, MAFindReplace fr) {
+
+public class MAFindReplaceHandler extends MassActionHandler {
+public static String replace(String xmlContent, String find, String replace) {
+
+public static String replace(String xmlContent, String find, String replace,boolean isExactReplace) {
+
+public class MAFindReplaceHandler extends MassActionHandler {
+############# IdentityManagementSoapBindingImpl.java
+public class IdentityManagementSoapBindingImpl implements
+public void updateLastCMViewIDs( int userId, int[] viewIds) throws RemoteException {
+
+public void updateLastLogin( int userId) throws RemoteException {
+
+public User getUserAttributesAll(int in0) throws RemoteException {
+
+############# LoginAction.java
+public class LoginAction extends Action {
+public class LoginAction extends Action {
+############# IdentityManagementSoap.java
+public interface IdentityManagementSoap
+public int[] getUserIdsByReputationLevel(String reputationLevel) throws IOException;
+
+public void updateLastCMViewIDs( int userId, int[] viewIds) throws IOException;
+
+public void updateLastLogin( int userId) throws IOException;
+
+public boolean isActiveUser(int userId) throws IOException;
+
+public boolean isActiveUser(String userName) throws IOException;
+
+public String[] getGroupMembers(String group) throws IOException;
+
+############# IdentityManagementServiceImpl.java
+public CrmUserTemplate getUserTemplate(String userName,int templateId )  throws
+public void updateLastLogin( int userId) throws RemoteException {
+
+public String[] getInactiveUserUniqueWorkflow(String in0)
+
+############# AuthoringJDBCDao.java
+public class AuthoringJDBCDao extends BaseJdbcDao implements IAuthoringDao {
+############# DocumentImportExport.java
+public class DocumentImportExport implements IDocumentImportExport {
+private static final String PROPERTY_AUTHOR = "Author";
+
+private static final String PROPERTY_CONTENT_SUPERVISOR = "Content Supervisor";
+
+private static final Pattern VALID_DOCUMENT_ID_REGEXP = Pattern.compile("[a-zA-Z0-9]{0,10}\\d{1,20}");
+
+private static final Pattern VALID_DOCUMENT_ID_REGEXP = Pattern.compile("^[a-zA-Z0-9-_]+$");
+
+private String ownerDocId;
+
+############# KIndexImpl.java
+public class KIndexImpl extends DoveKIndexKIndexServer implements JDoveServerIni
+public class KIndexImpl extends DoveKIndexKIndexServer implements JDoveServerIni
+public class KIndexImpl extends DoveKIndexKIndexServer implements JDoveServerIni
+public class KIndexImpl extends DoveKIndexKIndexServer implements JDoveServerIni
+private void getTotalNonDuplicateDocs(TopDocs topDocs, int numDocs, List<Document> docs, List<ScoreDoc> scores) throws Exception {
+
+private TopDocs runSearch(String queryString, KSortField[] sortFields, int numDocs, boolean countSlices)
+
+############# AuthoringJDBCDao.java
+public class AuthoringJDBCDao extends BaseJdbcDao implements IAuthoringDao {
+############# DocExportFilters.java
+public class DocExportFilters {
+private boolean isDeletedItems;
+
+private boolean isIgnoreStyle;
+
+private boolean isDefaultStyle;
+
+private boolean isAllversion;
+
+private String defaultStyleVal;
+
+private boolean isMultipleFiles;
+
+public class DocExportFilters {
+public void setSegments(List<String> segments) {
+
+public boolean isAllversion() {
+
+public void setAllversion(boolean isAllversion) {
+
+############# DocumentImportExport.java
+public class DocumentImportExport implements IDocumentImportExport {
+public static final String SKIP_CONTRIBUTE = "-skipContribute";
+
+public static final String PUB_STATUS = "-pubstatus";
+
+public static final String LASTMODDATE = "-lastmoddate";
+
+public static final String ALLVERSION = "-allversion";
+
+public static final String NO_DU_MODE = "-noDUs";	
+
+public static final String ITEMS_MODE = "-items";
+
+public static final String COMMUNITIES_MODE = "-communities";
+
+public class DocumentImportExport implements IDocumentImportExport {
+public class DocumentImportExport implements IDocumentImportExport {
+public class DocumentImportExport implements IDocumentImportExport {
+private static void printExportUsage() {
+
+public class DocumentImportExport implements IDocumentImportExport {
+private static void usage() {
+
+public class DocumentImportExport implements IDocumentImportExport {
+public AuthorAPIImpl getAuthorAPI() {
+
+############# RecommendationWidget.java
+public class RecommendationWidget extends GenericWidget {
+public read only
+
+public
+
+############# InterviewAction.java
+public class InterviewAction extends Action {
+public class InterviewAction extends Action {
+public class InterviewAction extends Action {
+############# InterviewAction.java
+public class InterviewAction extends Action {
+############# ExportGridListToExcel.java
+public class ExportGridListToExcel {
+private Logger logger = Logger.getLogger( ExportGridListToExcel.class.getName() );
+
+private static final String FEEDBACK_CATEGORIES = "CFC_FeedbackCategories";
+
+private static final String FEEDBACK_STATUSES = "CFS_FeedbackStatuses";
+
+private static final String URL = GWT.getHostPageBaseURL()+"/export.do";
+
+private static final String URL = GWT.getHostPageBaseURL()+"export.do";
+
+public ExportGridListToExcel(ListGridField[] fields,String  fileName){
+
+publicationstatus</name>
+
+publicationstatus</name>
+
+############# DocTypeToImageName.java
+public class DocTypeToImageName {
+
+private static final String defIcon = "icon_document.gif";
+
+private static final String defIcon = "icon_document.png";
+
+private static HashMap map;
+
+############# FindUsersAction.java
+public class FindUsersAction extends org.apache.struts.action.Action {
+############# AccessManager.java
+public class AccessManager {
+
+private Map<String, String> accessTable = new HashMap<String, String>();
+
+private Map<String, String> accessTable;// = new HashMap<String, String>();
+
+private static final String ACCESSTABLE_ID= "CKAM_ACCESSTABLE";
+
+private static AccessManager manager = null;
+
+private AccessManager() {
+
+public static AccessManager getInstance() {
+
+############# AccessServlet.java
+public class AccessServlet extends HttpServlet {
+private static Logger logger = LoggerFactory.getLogger(AccessServlet.class.getName());
+
+public Map<String, String> docBase = new HashMap<String, String>();
+
+private static final int MAX_ENTRIES = 1000;
+
+public boolean removeEldestEntry(Map.Entry eldest) {
+
+public void init(ServletConfig config) throws ServletException {
+
+public class AccessServlet extends HttpServlet {
+public class AccessServlet extends HttpServlet {
+############# DialogRequest.java
+public class DialogRequest extends com.kanisa.services.DialogRequest
+private void applyDocumentIdRange(Element constraints) {
+
+############# KSMReportsAction.java
+public class KSMReportsAction extends Action {
+public class KSMReportsAction extends Action {
+############# KSMReport.java
+public class KSMReport {
+private String deletedDocs;
+
+private String spiderMode;
+
+private String isIndexed;
+
+private boolean noReport;
+
+public static final String REPORT_STATE_OK = "ok";
+
+public static final String REPORT_STATE_DEL = "deleted";
+
+public class KSMReport {
+public KSMReport(HttpServletRequest request) {
+
+public class KSMReport {
+public boolean isNoReport() {
+
+public void setNoReport(boolean noReport) {
+
+public String getName() {
+
+############# NodeUtil.java
+public class NodeUtil {
+public:
+############# ContentPresenter.java
+public class ContentPresenter extends PresenterWidget<ContentPresenter.MyView>
+private boolean isConfigProperty(String propertyName) {
+
+private boolean isConfigPropertyDocViewInfo(String propertyName, DocViewInfo docViewInfo){
+
+private void rateDocument(String ratingValue){
+
+public class ContentPresenter extends PresenterWidget<ContentPresenter.MyView>
+public void setDocViewClientContext(DocViewClientContext clientContext) {
+
+public void setDocViewClientContext(DocViewClientContext clientContext, DocViewInfo docViewInfo) {
+
+public class ContentPresenter extends PresenterWidget<ContentPresenter.MyView>
+public class ContentPresenter extends PresenterWidget<ContentPresenter.MyView>
+############# DocumentViewPresenter.java
+public class DocumentViewPresenter extends PresenterWidget<DocumentViewPresenter
+public class DocumentViewPresenter extends PresenterWidget<DocumentViewPresenter
+private ContentPresenter createContentPresenter(){
+
+private ContentPresenter createContentPresenter(DocViewInfo docViewInfo){
+
+public class DocumentViewPresenter extends PresenterWidget<DocumentViewPresenter

@@ -1,0 +1,2616 @@
+############# AttachmentContributionHandler.java
+public class AttachmentContributionHandler {
+private boolean isFileIndexable(Set supportedFileExtension, String fileName) {
+public class AttachmentContributionHandler {
+private void setIndexable(Element formats, String format, String flag, Set<String> supportedFileExtension){
+
+############# AwsUploadDownload.java
+public class AwsUploadDownload {
+public access to s3 file is set to yes in platform configuration then
+public which will allow anonymous user to read the file from amazon s3
+public class AwsUploadDownload {
+private void setBucketPolicyPublic(){
+public access policy from amazon s3 for bucket if exists
+private void updateBucketPolicyPublic(boolean isPublicAccess){
+public access policy to bucket already exists
+public access policy if exists when public access to file is set to NO in config. 
+publicAccessStmt = new Statement(Statement.Effect.Allow)
+public permission statement to current permissions if exists
+publicAccessStmt);
+private void deleteBucketPolicyPublic(){
+
+############# SubmitFeedback.java
+public class SubmitFeedback extends Action {
+
+############# DPMasterServiceImpl.java
+public class DPMasterServiceImpl implements IDPMasterService {
+
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+publicationstatus</name>
+
+############# GSWidget.java
+public class GSWidget extends GenericWidget {
+public class GSWidget extends GenericWidget {
+private String getkmxfilter(Map<String, String> parameter){
+private String getKmxConstraints(Map<String, String> parameter, HttpServletRequest request){
+private String getFilter(String value) {
+publicationstatus</name>
+publicationstatus.draft")%>",
+publicationstatus.publish")%>",
+publicationstatus')
+publicationstatus}'
+publicationstatus" : KMX.view.GlobalVars.advanceParameters.publicationstatus
+publicationstatus = this.lookup('pubStatusCombo').getValue();    	
+publicationstatus' : publicationstatus};
+publicationstatus" : KMX.view.GlobalVars.advanceParameters.publicationstatus
+publicationstatus" : KMX.view.GlobalVars.advanceParameters.publicationstatus
+
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+private boolean isAppContextFromSearch(String appContext){
+
+private void updateAutoFillSearchQuery(SearchParameters sp) {
+
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+private String buildMicrositeFilterForRecommendation(String micrositeId, String[] segments, boolean isPreference, SearchParameters sp){
+
+############# ViewAttachmentAction.java
+public class ViewAttachmentAction extends org.apache.struts.action.Action {
+public class ViewAttachmentAction extends org.apache.struts.action.Action {
+public static void logEventViewAttachment(HttpServletRequest request, String attachmentName, String documentID, String versionNum){
+
+############# ViewAttachmentAction.java
+public class ViewAttachmentAction extends org.apache.struts.action.Action {
+public class ViewAttachmentAction extends org.apache.struts.action.Action {
+public static void logEventViewAttachment(HttpServletRequest request, String attachmentName, String documentID, String versionNum){
+
+############# ABPService.java
+public class ABPService {
+############# LoginService.java
+public class LoginService {
+############# LoginAction.java
+public class LoginAction extends Action {
+public class LoginAction extends Action {
+public class LoginAction extends Action {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+private static List secureURLPatterns;
+
+private static List allowURLPatterns;
+
+private static boolean isSamlEnabled = false;
+
+public as we will use this value in login.jsp/loginAdmin.jsp to display SSO login button	
+
+public static boolean isSamlEnabled = false;
+
+private static SAMLClient client;
+
+private String ssoAttributeName;
+
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+private void showLogin(HttpServletRequest request, HttpServletResponse response)
+
+private void showLogin(HttpServletRequest request, HttpServletResponse response, String isSSOLogin)
+
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+private void redirectToSSO(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+
+############# MenuLabelActionForm.java
+public class MenuLabelActionForm extends ActionForm{
+
+private Object keys;
+
+private String localeString;
+
+public Object getKeys() {
+
+public void setKeys(Object keys) {
+
+public String getLocaleString() {
+
+public void setLocaleString(String localeString) {
+
+############# MenuLabelsAction.java
+public class MenuLabelsAction extends Action  {
+
+public ActionForward execute(ActionMapping mapping, ActionForm form,
+
+############# MenuLabelsAction.java
+public class MenuLabelsAction extends Action  {
+############# MenuLabelActionForm.java
+public class MenuLabelActionForm extends ActionForm{
+
+private Object keys;
+
+private String localeString;
+
+############# MenuLabelsAction.java
+public class MenuLabelsAction extends Action  {
+
+public ActionForward execute(ActionMapping mapping, ActionForm form,
+
+############# ABPService.java
+public class ABPService {
+############# LoginService.java
+public class LoginService {
+############# ABPService.java
+public class ABPService {
+############# LoginService.java
+public class LoginService {
+############# SearchEntryWidget.java
+public class SearchEntryWidget extends LazyCanvas<VLayout> implements SearchPres
+public void setFilterValues(SearchEntryState state){
+
+############# LoginAction.java
+public class LoginAction extends Action {
+public class LoginAction extends Action {
+public class LoginAction extends Action {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+private static List secureURLPatterns;
+
+private static List allowURLPatterns;
+
+private static boolean isSamlEnabled = false;
+
+public as we will use this value in login.jsp/loginAdmin.jsp to display SSO login button	
+
+public static boolean isSamlEnabled = false;
+
+private static SAMLClient client;
+
+private String ssoAttributeName;
+
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+private void showLogin(HttpServletRequest request, HttpServletResponse response)
+
+private void showLogin(HttpServletRequest request, HttpServletResponse response, String isSSOLogin)
+
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+private void redirectToSSO(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+############# ServiceBridgeJDBCDao.java
+public class ServiceBridgeJDBCDao extends BaseJdbcDao {
+private static final String dropTempTable = "DROP table HTMLContentCleaner";
+
+private static final String dropSequnce = "drop sequence HTMLContentCleaner_sequence";
+
+private static final String getAllVersions = "select draft FROM Document where documentid=?";
+
+private static final String getDraftPublish = "select draft FROM Document where documentid=? and (draft=0 or draft=1)";
+
+private String EXTERNAL_URL_BASE = "PublishingURL";
+
+public class ServiceBridgeJDBCDao extends BaseJdbcDao {
+public ArrayList<DocumentInfoBean> getVersionsToProcess(Transaction trans, String id, boolean processAll){
+
+############# CleanHTMLSource.java
+public class CleanHTMLSource {
+private HtmlCleaner cleaner;
+
+private boolean processAllVersions = false;
+
+public static final String PROCESS_ALL_VERSIONS = "processAll";
+
+public static final String PROCESS_ALL_VERSIONS = "-allVersions";
+
+public static final String PROCESS_IDS = "-process";
+
+public static CleanHTMLSource getInstance() {
+
+public class CleanHTMLSource {
+public static void main(String[] args) {
+
+public class CleanHTMLSource {
+public class CleanHTMLSource {
+private void cleanSpecifiedIDS(String[] ids){
+
+private ArrayList<DocumentInfoBean> getVersionsToProcess(String id) throws DataBackendException {
+
+private void cleanContent(ArrayList<DocumentInfoBean> tempDocs){
+
+private int getTotalDocsCount() throws DataBackendException{
+
+public class CleanHTMLSource {
+private static void usage() {
+
+public DataSourceManager getDsMgr() {
+
+############# DocumentInfoBean.java
+public class DocumentInfoBean {
+
+private String docID;
+
+private int draft;
+
+private String content;
+
+public String getDocID() {
+
+public void setDocID(String docID) {
+
+public int getDraft() {
+
+public void setDraft(int draft) {
+
+public String getContent() {
+
+public void setContent(String content) {
+
+############# ServiceBridgeJDBCDao.java
+public class ServiceBridgeJDBCDao extends BaseJdbcDao {
+private static final String updateAllTSE = "UPDATE ConfigData set xml=?,modified=? where subnodename=?";
+
+private static final String updateDocs = "UPDATE Document set Content=? where DocumentID=? and Draft=?";
+
+private static final String copyAllVersions = "insert into HTMLContentCleaner(documentid,draft) SELECT documentid,draft from document ORDER BY documentid";
+
+private static final String copyDraftPublish = "insert into HTMLContentCleaner(documentid,draft) SELECT documentid,draft from document WHERE draft=0 or draft=1 ORDER BY documentid";
+
+private static final String getDocCountToProcess = "select count(*) from HTMLContentCleaner";
+
+private static final String getTempDocs = "SELECT documentid,draft FROM HTMLContentCleaner where id BETWEEN ? and ?";
+
+private static final String getDocsToProcess = "SELECT documentid,draft,content FROM document where documentid=? and draft=?";
+
+private static final String dropTempTable = "DROP table HTMLContentCleaner";
+
+private static final String dropSequnce = "drop sequence HTMLContentCleaner_sequence";
+
+private String EXTERNAL_URL_BASE = "PublishingURL";
+
+public static final String CONFIG_PREFIX = "Kanisa/Kanisa Platform/Publishing/";
+
+public static final String CONFIG_EXTERNAL_URL_BASE = CONFIG_PREFIX + "ExternalURLBase";
+
+public class ServiceBridgeJDBCDao extends BaseJdbcDao {
+public int getTotalDocsCount(Transaction trans){
+
+public void copyDocsToTemp(Transaction trans, boolean getAllVersions){
+
+public ArrayList<DocumentInfoBean> getAllDocs(Transaction trans, int start, int end){
+
+public ArrayList<DocumentInfoBean> getDocToProcess(Transaction trans, String id, int version){
+
+public void updateAllContent(Transaction trans,ArrayList<DocumentInfoBean> modifiedDocs){
+
+public void dropTempData(Transaction trans){
+
+public void dropSequence(Transaction trans){
+
+############# CleanHTMLSource.java
+public class CleanHTMLSource {
+
+private static final Logger log = LoggerFactory.getLogger(CleanHTMLSource.class);
+
+private final static String SPRING_CONFIG = "SPRING_CONFIG";
+
+private final static String SPRING_UPDATE_CONTENT = "cleanHTMLSource";
+
+private DataSourceManager dsMgr;
+
+private ServiceBridgeJDBCDao sbDao;
+
+private CleanerProperties props;
+
+private HtmlCleaner cleaner;
+
+private boolean processAllVersions = false;
+
+public static final String PROCESS_ALL_VERSIONS = "processAll";
+
+public static CleanHTMLSource getInstance() {
+
+public static void main(String[] args) {
+
+public void setAllVersions(boolean processAllVersions) {
+
+public void initializeCleanerProps() {
+
+private void cleanHTMLSource() throws InterruptedException,DataBackendException {
+
+private void copyDocsToTemp() throws DataBackendException{
+
+private int getTotalDocsCount() throws DataBackendException{
+
+private ArrayList<DocumentInfoBean> getAllDocs(int start, int end) throws DataBackendException{
+
+private DocumentInfoBean getDocToProcess(String id, int version) throws DataBackendException{
+
+private void updateAllContent(ArrayList<DocumentInfoBean> modifiedDocs) throws DataBackendException{
+
+private void dropTempData() throws DataBackendException{
+
+private void dropSequence() throws DataBackendException{
+
+private String cleanHTML(String htmlSource,int draft) {
+
+private String closeUnclosedTags(String origcontent) throws InterruptedException {
+
+private String convertDocumentToString(Document doc)
+
+private boolean isOracle() throws DataBackendException {
+
+public DataSourceManager getDsMgr() {
+
+public void setDsMgr(DataSourceManager dsMgr) {
+
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# LoginAction.java
+public class LoginAction extends Action {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+############# ContentPanePresenter.java
+public class ContentPanePresenter extends PresenterWidget<ContentPanePresenter.M
+private MediaManagerServiceAsync mediaManagerService = GWT.create(MediaManagerService.class);
+
+private MMResourceConstants resources = GWT.create(MMResourceConstants.class);
+
+private Logger logger = Logger.getLogger( ContentPanePresenter.class.getName() );
+
+public static String managerModeName = "";
+
+private Integer managerMode = MediaManagerConstants.ManagerMode.IMAGE_MODE;
+
+public class ContentPanePresenter extends PresenterWidget<ContentPanePresenter.M
+public void onBind(){	
+
+public void onBind(){
+
+private void registerHandlers() {
+
+############# MediaManagerPresenter.java
+public class MediaManagerPresenter extends Presenter<MediaManagerPresenter.MyVie
+public class MediaManagerPresenter extends Presenter<MediaManagerPresenter.MyVie
+############# MediaManagerServiceImpl.java
+public class MediaManagerServiceImpl extends RemoteServiceServlet implements Med
+############# BaseHTMLUtil.java
+public class BaseHTMLUtil {
+############# BaseHTMLUtil.java
+public class BaseHTMLUtil {
+public static boolean isBlankContent(String content, boolean isHtml) {
+
+public class BaseHTMLUtil {
+############# BaseHTMLUtil.java
+public class BaseHTMLUtil {
+public class BaseHTMLUtil {
+public class BaseHTMLUtil {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+private static List secureURLPatterns;
+
+private static List allowURLPatterns;
+
+private static boolean isSamlEnabled = false;
+
+public as we will use this value in login.jsp/loginAdmin.jsp to display SSO login button	
+
+public static boolean isSamlEnabled = false;
+
+private static SAMLClient client;
+
+private String ssoAttributeName;
+
+public final class SecurityFilter implements Filter {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+private static List secureURLPatterns;
+
+private static List allowURLPatterns;
+
+private static boolean isSamlEnabled = false;
+
+public as we will use this value in login.jsp/loginAdmin.jsp to display SSO login button	
+
+public static boolean isSamlEnabled = false;
+
+private static SAMLClient client;
+
+private String ssoAttributeName;
+
+public final class SecurityFilter implements Filter {
+############# DialogRequest.java
+public class DialogRequest extends com.kanisa.services.DialogRequest
+############# DialogRequest.java
+public class DialogRequest extends com.kanisa.services.DialogRequest
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public void showArea(){
+
+public void run() {
+
+public void run() {
+
+private void showAreas(){
+
+############# ContentEditorPresenter.java
+public class ContentEditorPresenter extends PresenterWidget<ContentEditorPresent
+public void onSuccess(String lockedBy) {		
+
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void resetBatchInfo();
+
+public void resetIEBatchInfo();
+
+public void setContentTabPresenter(ContentTabPresenter ctp);
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void setSaveButtonsEnabled(boolean enable) {
+
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public void resetBatchInfo(){
+
+public void resetIEBatchInfo(){
+
+public void setContentTabPresenter(ContentTabPresenter ctp) {
+
+############# ContentEditorServiceImpl.java
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+public String parseImageData(String content, DocData docData)
+
+public String parseImageData(String inputXML, DocData docData)
+
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+private void deleteImgFolder(String src)throws Exception
+
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+############# DocContentProvider.java
+public class DocContentProvider extends AbstractContentProvider {
+############# ListAreaItemBuilder.java
+public class ListAreaItemBuilder extends AreaItemBuilder{
+############# PublishingManager.java
+public class PublishingManager {
+
+private static final org.apache.log4j.Logger logger = com.kanisa.util.KLogger.getLogger(PublishingManager.class);
+
+private String IMG_URL_IDENTIFIER = "viewAttachment.do?";
+
+private String KANISA_CONTENT = "KANISA_CONTENT";
+
+private String KANISA_AUTHORED_DOC = "KANISA_AUTHORED_DOC";
+
+private String KANISA_TITLE = "KANISA_TITLE";
+
+private String KANISA_ATTACHMENTS = "KANISA_ATTACHMENTS";
+
+private String KANISA_ATTACHMENT = "KANISA_ATTACHMENT";
+
+private String href = "href";
+
+private String attachmentFileName = "attachmentFileName";
+
+private String KANISA_REGIONS = "KANISA_REGIONS";
+
+private String CONTENT_COMPONENT_PREFIX = "CC";
+
+private ConfigHandler configHandler;		
+
+private final String DOCTYPE_IMAGE_FOLDER = "images";
+
+private final String PUBLISHING_URL = "PublishingURL";
+
+public static final String IMAGE_LINK = ConfigSettingsImpl.getInstance().get("BaseURL") + "/getUMBrowseImageById.do?objectId=";
+
+private KMapService kmapService;   
+
+private WorkflowManager workflowManager;
+
+private class DocFileNameFilter implements FilenameFilter {
+
+private String docFileNamePart;
+
+public DocFileNameFilter(String docFileNamePart) {
+
+public boolean accept(File dir, String name) {
+
+private static PublishingManager pm = null;
+
+public static synchronized PublishingManager getInstance() throws PublishingException {
+
+private PublishingManager() throws PublishingException {
+
+public synchronized PublishedDoc publish(CompleteDoc document, String documentID,
+
+public String delete(String documentID, int pubStatus)
+
+public boolean accept(File dir, String name) {
+
+private void deleteFiles(String folder, String docFileNamePart) {
+
+public static void flush() {
+
+private PublishedDoc publishDocument(CompleteDoc doc, String documentID,
+
+private PublishedDoc createPublishedDoc(Doc doc, String docFileNamePart, String sliceID, List segmentsNames) {
+
+private static final org.apache.log4j.Logger logger = com.kanisa.util.KLogger.getLogger(PublishingManager.class);
+
+private String IMG_URL_IDENTIFIER = "viewAttachment.do?";
+
+private String KANISA_CONTENT = "KANISA_CONTENT";
+
+private String KANISA_AUTHORED_DOC = "KANISA_AUTHORED_DOC";
+
+private String KANISA_TITLE = "KANISA_TITLE";
+
+private String KANISA_ATTACHMENTS = "KANISA_ATTACHMENTS";
+
+private String KANISA_ATTACHMENT = "KANISA_ATTACHMENT";
+
+private String href = "href";
+
+private String attachmentFileName = "attachmentFileName";
+
+private String KANISA_REGIONS = "KANISA_REGIONS";
+
+private String CONTENT_COMPONENT_PREFIX = "CC";
+
+private ConfigHandler configHandler;		
+
+private final String DOCTYPE_IMAGE_FOLDER = "images";
+
+private final String PUBLISHING_URL = "PublishingURL";
+
+public static final String IMAGE_LINK = ConfigSettingsImpl.getInstance().get("BaseURL") + "/getUMBrowseImageById.do?objectId=";
+
+private KMapService kmapService;   
+
+private WorkflowManager workflowManager;
+
+private class DocFileNameFilter implements FilenameFilter {
+
+private String docFileNamePart;
+
+public DocFileNameFilter(String docFileNamePart) {
+
+public boolean accept(File dir, String name) {
+
+private static PublishingManager pm = null;
+
+public static synchronized PublishingManager getInstance() throws PublishingException {
+
+private PublishingManager() throws PublishingException {
+
+public synchronized PublishedDoc publish(CompleteDoc document, String documentID,
+
+public String delete(String documentID, int pubStatus)
+
+public boolean accept(File dir, String name) {
+
+private void deleteFiles(String folder, String docFileNamePart) {
+
+public static void flush() {
+
+private PublishedDoc publishDocument(CompleteDoc doc, String documentID,
+
+private PublishedDoc createPublishedDoc(Doc doc, String docFileNamePart, String sliceID, List segmentsNames) {
+
+private String createHTMLDoc(CompleteDoc doc, String documentID, int version, String sliceID, List segmentsNames) throws Exception {
+
+private String createHTMLDoc(CompleteDoc doc, String documentID, int version, String sliceID, List segmentsNames) throws Exception {
+
+public synchronized String createPreviewHTMLDoc(CompleteDoc doc, boolean isCompleteContent) throws Exception {
+
+public synchronized String createPreviewHTMLDoc(CompleteDoc doc, boolean isCompleteContent) throws Exception {
+
+private DocLang getDocLangByLanguage(DocLang[] editions, String languageId ){
+
+private String getDocTypeUrl(UnifiedTemplate template, SNode cpt) throws Exception {
+
+private static String getPrefix(String objectId) { 
+
+private void addUser(com.kanisa.user.User user, Document xmlDoc, Element additional, String tag) {
+
+private Element getDocLinksElement(Doc doc, Document xmlDoc, String locale, LinkedDocArea area) throws Exception {
+
+private Element getMetadataElement(CompleteDoc doc, Document xmlDoc, String locale, MetadataArea area, List segmentsNames) throws Exception {
+
+private String convertTextToHTML( String text ){
+
+private Document getBaseContentDoc(Doc doc) throws Exception {
+
+private Element getCAElement(Document xmlDoc, String language, ContentArea area, Document baseDoc) throws Exception {
+
+private String makeDocFileNamePart(String documentID, int draft) {
+
+public String makeAttachmentExtUrlPart(String documentId, int draft) {
+
+private String makeHTMLFilename(String docFileNamePart, String documentID, String sliceID) {
+
+private String makeSubFolderPath(String documentID) {
+
+private String makeSubfolderName(String documentID) {
+
+private String makeExternalURL(String docFileNamePart, String documentId, String sliceID) {
+
+private Element getAttachments(Document xmlDoc, String docFileNamePart, Doc doc) {
+
+private String transformXml(String input, int templateId) throws PublishingException {       	
+
+private static String getSegmentsContent(String content, List segmentsNames) {
+
+public static String quoteReplacement(String s) {
+
+private DocLang getDocLangByLanguage(DocLang[] editions, String languageId ){
+
+private String getDocTypeUrl(UnifiedTemplate template, SNode cpt) throws Exception {
+
+private static String getPrefix(String objectId) { 
+
+private void addUser(com.kanisa.user.User user, Document xmlDoc, Element additional, String tag) {
+
+private Element getDocLinksElement(Doc doc, Document xmlDoc, String locale, LinkedDocArea area) throws Exception {
+
+private Element getMetadataElement(CompleteDoc doc, Document xmlDoc, String locale, MetadataArea area, List segmentsNames) throws Exception {
+
+private String convertTextToHTML( String text ){
+
+private Document getBaseContentDoc(Doc doc) throws Exception {
+
+private Element getCAElement(Document xmlDoc, String language, ContentArea area, Document baseDoc) throws Exception {
+
+private String makeDocFileNamePart(String documentID, int draft) {
+
+public String makeAttachmentExtUrlPart(String documentId, int draft) {
+
+private String makeHTMLFilename(String docFileNamePart, String documentID, String sliceID) {
+
+private String makeSubFolderPath(String documentID) {
+
+private String makeSubfolderName(String documentID) {
+
+private String makeExternalURL(String docFileNamePart, String documentId, String sliceID) {
+
+private Element getAttachments(Document xmlDoc, String docFileNamePart, Doc doc) {
+
+private String transformXml(String input, int templateId) throws PublishingException {       	
+
+private static String getSegmentsContent(String content, List segmentsNames) {
+
+public static String quoteReplacement(String s) {
+
+############# PublishingManager.java
+public class PublishingManager {
+public class PublishingManager {
+public class PublishingManager {
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+############# DocContentProvider.java
+public class DocContentProvider extends AbstractContentProvider {
+############# ListAreaItemBuilder.java
+public class ListAreaItemBuilder extends AreaItemBuilder{
+############# PublishingManager.java
+public class PublishingManager {
+
+private static final org.apache.log4j.Logger logger = com.kanisa.util.KLogger.getLogger(PublishingManager.class);
+
+private String IMG_URL_IDENTIFIER = "viewAttachment.do?";
+
+private String KANISA_CONTENT = "KANISA_CONTENT";
+
+private String KANISA_AUTHORED_DOC = "KANISA_AUTHORED_DOC";
+
+private String KANISA_TITLE = "KANISA_TITLE";
+
+private String KANISA_ATTACHMENTS = "KANISA_ATTACHMENTS";
+
+private String KANISA_ATTACHMENT = "KANISA_ATTACHMENT";
+
+private String href = "href";
+
+private String attachmentFileName = "attachmentFileName";
+
+private String KANISA_REGIONS = "KANISA_REGIONS";
+
+private String CONTENT_COMPONENT_PREFIX = "CC";
+
+private ConfigHandler configHandler;		
+
+private final String DOCTYPE_IMAGE_FOLDER = "images";
+
+private final String PUBLISHING_URL = "PublishingURL";
+
+public static final String IMAGE_LINK = ConfigSettingsImpl.getInstance().get("BaseURL") + "/getUMBrowseImageById.do?objectId=";
+
+private KMapService kmapService;   
+
+private WorkflowManager workflowManager;
+
+private class DocFileNameFilter implements FilenameFilter {
+
+private String docFileNamePart;
+
+public DocFileNameFilter(String docFileNamePart) {
+
+public boolean accept(File dir, String name) {
+
+private static PublishingManager pm = null;
+
+public static synchronized PublishingManager getInstance() throws PublishingException {
+
+private PublishingManager() throws PublishingException {
+
+public synchronized PublishedDoc publish(CompleteDoc document, String documentID,
+
+public String delete(String documentID, int pubStatus)
+
+public boolean accept(File dir, String name) {
+
+private void deleteFiles(String folder, String docFileNamePart) {
+
+public static void flush() {
+
+private PublishedDoc publishDocument(CompleteDoc doc, String documentID,
+
+private PublishedDoc createPublishedDoc(Doc doc, String docFileNamePart, String sliceID, List segmentsNames) {
+
+private static final org.apache.log4j.Logger logger = com.kanisa.util.KLogger.getLogger(PublishingManager.class);
+
+private String IMG_URL_IDENTIFIER = "viewAttachment.do?";
+
+private String KANISA_CONTENT = "KANISA_CONTENT";
+
+private String KANISA_AUTHORED_DOC = "KANISA_AUTHORED_DOC";
+
+private String KANISA_TITLE = "KANISA_TITLE";
+
+private String KANISA_ATTACHMENTS = "KANISA_ATTACHMENTS";
+
+private String KANISA_ATTACHMENT = "KANISA_ATTACHMENT";
+
+private String href = "href";
+
+private String attachmentFileName = "attachmentFileName";
+
+private String KANISA_REGIONS = "KANISA_REGIONS";
+
+private String CONTENT_COMPONENT_PREFIX = "CC";
+
+private ConfigHandler configHandler;		
+
+private final String DOCTYPE_IMAGE_FOLDER = "images";
+
+private final String PUBLISHING_URL = "PublishingURL";
+
+public static final String IMAGE_LINK = ConfigSettingsImpl.getInstance().get("BaseURL") + "/getUMBrowseImageById.do?objectId=";
+
+private KMapService kmapService;   
+
+private WorkflowManager workflowManager;
+
+private class DocFileNameFilter implements FilenameFilter {
+
+private String docFileNamePart;
+
+public DocFileNameFilter(String docFileNamePart) {
+
+public boolean accept(File dir, String name) {
+
+private static PublishingManager pm = null;
+
+public static synchronized PublishingManager getInstance() throws PublishingException {
+
+private PublishingManager() throws PublishingException {
+
+public synchronized PublishedDoc publish(CompleteDoc document, String documentID,
+
+public String delete(String documentID, int pubStatus)
+
+public boolean accept(File dir, String name) {
+
+private void deleteFiles(String folder, String docFileNamePart) {
+
+public static void flush() {
+
+private PublishedDoc publishDocument(CompleteDoc doc, String documentID,
+
+private PublishedDoc createPublishedDoc(Doc doc, String docFileNamePart, String sliceID, List segmentsNames) {
+
+private String createHTMLDoc(CompleteDoc doc, String documentID, int version, String sliceID, List segmentsNames) throws Exception {
+
+private String createHTMLDoc(CompleteDoc doc, String documentID, int version, String sliceID, List segmentsNames) throws Exception {
+
+public synchronized String createPreviewHTMLDoc(CompleteDoc doc, boolean isCompleteContent) throws Exception {
+
+public synchronized String createPreviewHTMLDoc(CompleteDoc doc, boolean isCompleteContent) throws Exception {
+
+private DocLang getDocLangByLanguage(DocLang[] editions, String languageId ){
+
+private String getDocTypeUrl(UnifiedTemplate template, SNode cpt) throws Exception {
+
+private static String getPrefix(String objectId) { 
+
+private void addUser(com.kanisa.user.User user, Document xmlDoc, Element additional, String tag) {
+
+private Element getDocLinksElement(Doc doc, Document xmlDoc, String locale, LinkedDocArea area) throws Exception {
+
+private Element getMetadataElement(CompleteDoc doc, Document xmlDoc, String locale, MetadataArea area, List segmentsNames) throws Exception {
+
+private String convertTextToHTML( String text ){
+
+private Document getBaseContentDoc(Doc doc) throws Exception {
+
+private Element getCAElement(Document xmlDoc, String language, ContentArea area, Document baseDoc) throws Exception {
+
+private String makeDocFileNamePart(String documentID, int draft) {
+
+public String makeAttachmentExtUrlPart(String documentId, int draft) {
+
+private String makeHTMLFilename(String docFileNamePart, String documentID, String sliceID) {
+
+private String makeSubFolderPath(String documentID) {
+
+private String makeSubfolderName(String documentID) {
+
+private String makeExternalURL(String docFileNamePart, String documentId, String sliceID) {
+
+private Element getAttachments(Document xmlDoc, String docFileNamePart, Doc doc) {
+
+private String transformXml(String input, int templateId) throws PublishingException {       	
+
+private static String getSegmentsContent(String content, List segmentsNames) {
+
+public static String quoteReplacement(String s) {
+
+private DocLang getDocLangByLanguage(DocLang[] editions, String languageId ){
+
+private String getDocTypeUrl(UnifiedTemplate template, SNode cpt) throws Exception {
+
+private static String getPrefix(String objectId) { 
+
+private void addUser(com.kanisa.user.User user, Document xmlDoc, Element additional, String tag) {
+
+private Element getDocLinksElement(Doc doc, Document xmlDoc, String locale, LinkedDocArea area) throws Exception {
+
+private Element getMetadataElement(CompleteDoc doc, Document xmlDoc, String locale, MetadataArea area, List segmentsNames) throws Exception {
+
+private String convertTextToHTML( String text ){
+
+private Document getBaseContentDoc(Doc doc) throws Exception {
+
+private Element getCAElement(Document xmlDoc, String language, ContentArea area, Document baseDoc) throws Exception {
+
+private String makeDocFileNamePart(String documentID, int draft) {
+
+public String makeAttachmentExtUrlPart(String documentId, int draft) {
+
+private String makeHTMLFilename(String docFileNamePart, String documentID, String sliceID) {
+
+private String makeSubFolderPath(String documentID) {
+
+private String makeSubfolderName(String documentID) {
+
+private String makeExternalURL(String docFileNamePart, String documentId, String sliceID) {
+
+private Element getAttachments(Document xmlDoc, String docFileNamePart, Doc doc) {
+
+private String transformXml(String input, int templateId) throws PublishingException {       	
+
+private static String getSegmentsContent(String content, List segmentsNames) {
+
+public static String quoteReplacement(String s) {
+
+############# PublishingManager.java
+public class PublishingManager {
+public class PublishingManager {
+public class PublishingManager {
+############# ContentPaneView.java
+public class ContentPaneView extends ViewImpl implements ContentPanePresenter.My
+############# ContentPaneView.java
+public class ContentPaneView extends ViewImpl implements ContentPanePresenter.My
+public void setResources() {
+
+public class ContentPaneView extends ViewImpl implements ContentPanePresenter.My
+############# SearchDocumentWindowPresenter.java
+public class SearchDocumentWindowPresenter extends Presenter<SearchDocumentWindo
+public class SearchDocumentWindowPresenter extends Presenter<SearchDocumentWindo
+publicationstatus=" + document.searchSimilarForm.publicationstatus.value;
+
+############# FindLinkedDialogPresenter.java
+public class FindLinkedDialogPresenter extends PresenterWidget<FindLinkedDialogP
+public void onSuccess(ArrayList<FilterValue> result) {
+
+############# SearchDocumentWindowPresenter.java
+public class SearchDocumentWindowPresenter extends Presenter<SearchDocumentWindowPresenter.MyView, SearchDocumentWindowPresenter.MyProxy>{
+
+public static final Type<RevealContentHandler<?>> SEARCH_DOC = new Type<RevealContentHandler<?>>();
+
+private ContentEditorGinjector ginjector = GWT.create(ContentEditorGinjector.class);
+
+private PresenterWidget<?> documentSearchPresenter;
+
+private com.consona.ckm.contenteditor.client.CEConstants resources = GWT.create(com.consona.ckm.contenteditor.client.CEConstants.class);
+
+public SearchDocumentWindowPresenter(EventBus eventBus, MyView view, MyProxy proxy) {
+
+public interface MyProxy extends ProxyPlace<SearchDocumentWindowPresenter> {
+
+public interface MyView extends View{
+
+public class SearchDocumentWindowPresenter extends Presenter<SearchDocumentWindo
+public void prepareFromRequest(PlaceRequest request) {
+
+public class SearchDocumentWindowPresenter extends Presenter<SearchDocumentWindo
+private PresenterWidget<?> getSearchPresenter(String widgetID, 
+
+public class SearchDocumentWindowPresenter extends Presenter<SearchDocumentWindo
+public void execute() {
+
+public class SearchDocumentWindowPresenter extends Presenter<SearchDocumentWindo
+public void execute() {
+
+############# SearchForSimilarDialogPresenter.java
+public class SearchForSimilarDialogPresenter extends PresenterWidget<SearchForSi
+public void setDefaultSearchText( String text ) {
+
+public void setDefaultSegments( String segmentIDs, String langID ) {
+
+public void setDefaultSegments( String segmentIDs, String langID ) {	
+
+public class SearchForSimilarDialogPresenter extends PresenterWidget<SearchForSi
+public void onSuccess(ArrayList<FilterValue> result) {
+
+public void onSuccess(ArrayList<FilterValue> result) {				
+
+private ArrayList<String> toIDs(String metadataIDs) {
+
+public class SearchForSimilarDialogPresenter extends PresenterWidget<SearchForSi
+public void showDlg(PresenterWidget dlg) {
+
+############# DPMasterServiceImpl.java
+public class DPMasterServiceImpl implements IDPMasterService {
+############# ViewAttachmentUtil.java
+public class ViewAttachmentUtil {
+private static String getEscapedFileName(String fileName, HttpServletRequest request) {
+
+############# ViewAttachmentUtil.java
+public class ViewAttachmentUtil {
+private static String getEscapedFileName(String fileName, HttpServletRequest request) {
+
+############# TSEUpdater.java
+public class TSEUpdater {
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+############# LoginAction.java
+public class LoginAction extends Action {
+public class LoginAction extends Action {
+############# SecurityFilter.java
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+public final class SecurityFilter implements Filter {
+private void showLogin(HttpServletRequest request,
+
+public final class SecurityFilter implements Filter {
+############# ContentEditorPresenter.java
+public class ContentEditorPresenter extends PresenterWidget<ContentEditorPresent
+public void setChangedOwner(boolean changedOwner) {
+
+public void setSaveButtonsEnabled(boolean isEnabled) {
+
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public interface MyView extends View {
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void resetBatchInfo();
+
+public void setContentTabPresenter(ContentTabPresenter ctp);
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void onRecordClick(RecordClickEvent event) {
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void setDocData(DocData document) {
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+private void buildAreas(DocData document) { 			
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void setSaveButtonsEnabled(boolean enable) {
+
+private ClickHandler createViewHelpHandler() {
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void setContentEditorMode(Integer contentEditorMode) {
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public final Widget widget;
+
+private ContentTabPresenter contentTabPresenter;
+
+private static Binder uiBinder = GWT.create(Binder.class);
+
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+private void cancelTimer(){
+
+public boolean isIE(){
+
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public void setContentTabPresenter(ContentTabPresenter ctp) {
+
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# RetrieverService.java
+public class RetrieverService {
+public static String getKCInfo(String externalId, String sliceId) throws Exception {
+
+############# SubmitFeedback.java
+public class SubmitFeedback extends Action {
+public class SubmitFeedback extends Action {
+public class SubmitFeedback extends Action {
+############# FeedbackDialogPresenter.java
+public class FeedbackDialogPresenter extends PresenterWidget<FeedbackDialogPrese
+############# DocViewServiceImpl.java
+public class DocViewServiceImpl extends RemoteServiceServlet implements DocViewS
+############# SubmitFeedbackData.java
+public class SubmitFeedbackData implements IsSerializable {
+
+private String externalId;
+
+private String sliceId;
+
+private String languageId;
+
+private String knowledgeSource;
+
+private String categoryId;
+
+public class SubmitFeedbackData implements IsSerializable {
+public void setExternalId(String externalId) {
+
+public String getSliceId() {
+
+public void setSliceId(String sliceId) {
+
+public String getLanguageId() {
+
+############# FeedbackContributionHandler.java
+public class FeedbackContributionHandler extends AbstractContributionHandler {
+public class FeedbackContributionHandler extends AbstractContributionHandler {
+private void addKSMDocumentProperties(String languageId, DcnDocument dcn, Document doc, StringBuilder xmlSummary) throws Exception {
+
+############# DPMainServiceImpl.java
+private static Document convertStringToDocument(String xmlStr) throws IOExceptio
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# ContributionDocument.java
+public class ContributionDocument extends Document{
+public static enum TEXTFIELDS{
+
+############# ExportDictionaryToExcelAction.java
+public class ExportDictionaryToExcelAction extends Action {
+############# MediaManagerServiceImpl.java
+public class MediaManagerServiceImpl extends RemoteServiceServlet implements Med
+############# DPMainServiceImpl.java
+private static Document convertStringToDocument(String xmlStr) throws IOExceptio
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public  DynamicForm getForm();
+
+public void resetBatchInfo();
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public static native String getUserAgent() /*-{
+
+public void resetBatchInfo(){
+
+############# UMMainViewHelper.java
+public class UMMainViewHelper extends UMMViewHelper {
+public void init( HttpServletRequest request ) throws Exception {
+
+############# CommunityHierarchyTree.java
+public class CommunityHierarchyTree {
+public static String getLang(HttpServletRequest req) {
+
+public static String getLang(HttpServletRequest req) throws Exception{
+
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# ShowTreeAction.java
+public class ShowTreeAction extends Action {
+############# TreeParams.java
+public class TreeParams {
+############# AdminUtil.java
+public class AdminUtil {
+public class AdminUtil {
+public static List<KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+public static String getLangName(String langID, HttpServletRequest request) throws Exception{
+
+public static String getLangID(HttpServletRequest request) throws Exception{
+
+############# PollEditor.java
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+private List<com.kanisa.commons.model.KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+############# CommunityHierarchyTree.java
+public class CommunityHierarchyTree {
+public static String getLang(HttpServletRequest req) {
+
+public static String getLang(HttpServletRequest req) throws Exception{
+
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# ShowTreeAction.java
+public class ShowTreeAction extends Action {
+############# TreeParams.java
+public class TreeParams {
+############# AdminUtil.java
+public class AdminUtil {
+public class AdminUtil {
+public static List<KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+public static String getLangID(HttpServletRequest request) throws Exception{
+
+############# PollEditor.java
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+############# FMManagerAction.java
+public class FMManagerAction extends DispatchAction {
+private FeedbackHandler handler=new FeedbackHandler();
+
+public ActionForward open(ActionMapping actionMapping, ActionForm actionForm, HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+public class FMManagerAction extends DispatchAction {
+############# UMMViewHelper.java
+public class UMMViewHelper {
+############# UMMainViewHelper.java
+public class UMMainViewHelper extends UMMViewHelper {
+public void init( HttpServletRequest request ) throws Exception {
+
+############# FlatConceptsAction.java
+public class FlatConceptsAction extends org.apache.struts.action.Action {
+############# ContentAlertFiltersAction.java
+public class ContentAlertFiltersAction extends Action {
+public class ContentAlertFiltersAction extends Action {
+private List getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+############# EmailTemplatesAction.java
+public class EmailTemplatesAction extends DispatchAction {
+public class EmailTemplatesAction extends DispatchAction {
+############# EnterpriseReputationLevels.java
+public class EnterpriseReputationLevels extends Action {
+############# KDVocabAction.java
+public class KDVocabAction extends org.apache.struts.action.Action
+public class KDVocabAction extends org.apache.struts.action.Action
+############# RSSFeedManagerAction.java
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+############# StopwordDispatchAction.java
+public class StopwordDispatchAction extends DispatchAction {
+public class StopwordDispatchAction extends DispatchAction {
+public class StopwordDispatchAction extends DispatchAction {
+private KNode getLanguageNode(String langID, HttpServletRequest req)
+
+public class StopwordDispatchAction extends DispatchAction {
+private String getSelectedLanguage(HttpServletRequest req) {
+
+private String getSelectedLanguage(HttpServletRequest req) throws Exception{
+
+private String getLangName(String langID, HttpServletRequest request)
+
+private StopwordsList escapeWords(String w[]) {
+
+public class StopwordDispatchAction extends DispatchAction {
+############# TaxoCRUDDispatchAction.java
+public class TaxoCRUDDispatchAction extends DispatchAction {
+public class TaxoCRUDDispatchAction extends DispatchAction {
+public class TaxoCRUDDispatchAction extends DispatchAction {
+############# SaveLanguageHelper.java
+public class SaveLanguageHelper implements Const {
+public static String fetchLanguage(HttpServletRequest request) {
+
+public static String fetchLanguage(HttpServletRequest request) throws Exception{
+
+public class SaveLanguageHelper implements Const {
+private static String getSessionLang(HttpServletRequest request) throws Exception{
+
+############# ShowEmailMasterTemplateAction.java
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+############# Res.java
+public final class Res {
+public final class Res {
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# EmailTemplatesAction.java
+public class EmailTemplatesAction extends DispatchAction {
+public class EmailTemplatesAction extends DispatchAction {
+############# AdminUtil.java
+public class AdminUtil {
+############# AdminUtil.java
+public class AdminUtil {
+############# FlatConceptsAction.java
+public class FlatConceptsAction extends org.apache.struts.action.Action {
+############# EmailTemplatesAction.java
+public class EmailTemplatesAction extends DispatchAction {
+
+public class EmailTemplatesAction extends DispatchAction {
+public class EmailTemplatesAction extends DispatchAction {
+############# EnterpriseReputationLevels.java
+public class EnterpriseReputationLevels extends Action {
+public class EnterpriseReputationLevels extends Action {
+############# RSSFeedManagerAction.java
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+############# TaxoCRUDDispatchAction.java
+public class TaxoCRUDDispatchAction extends DispatchAction {
+############# ShowEmailMasterTemplateAction.java
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+publicprofile.do?username=$item.nodeId">$item.item</A>
+
+############# SavedItemsWidget.java
+public class SavedItemsWidget extends GenericWidget {
+public class SavedItemsWidget extends GenericWidget {
+private void setMSName(FavoriteDocument[] favDocuments, KUser kUser) {
+
+############# SubscriptionsListUtil.java
+public class SubscriptionsListUtil {
+
+public static final String ASC = "ASC";
+
+public static final String DSC = "DSC";
+
+public static final String USERPROFILE = "userprofile";
+
+private final Log log = LogFactory.getLog(this.getClass().getName());
+
+private final Log log = LogFactory.getLog(this.getClass().getName());
+
+private Locale locale;
+
+private String bundleName;
+
+private String imgPath;
+
+public class SubscriptionsListUtil {
+public SubscriptionsListItem[] loadSubscriptionItems(UserDataBuffer buffer,String sortOrder, HttpServletRequest request) {
+
+public class SubscriptionsListUtil {
+############# ViewDocumentHelper.java
+public class ViewDocumentHelper {
+############# MicrositeFilter.java
+public class MicrositeFilter implements Filter {
+public static String getMicrositeID(String msId, KUser user,String externalId, String sliceId){
+
+public static boolean hasPermission(String msId, KUser user,String externalId, String sliceId) {
+
+############# MicrositeFilter.java
+public class MicrositeFilter implements Filter {
+public static String getMicrositeID(String msId, KUser user,String externalId, String sliceId){
+
+public static boolean hasPermission(String msId, KUser user,String externalId, String sliceId) {
+
+############# FavoriteDocument.java
+public class FavoriteDocument extends FavoriteItem {
+private long publicationDate;
+
+private int itemId;
+
+private String msName;
+
+public String getExternalID() {
+
+public class FavoriteDocument extends FavoriteItem {
+public void setItemId(int itemId) {
+
+public String getMsName() {
+
+public void setMsName(String msName) {
+
+############# SynonymExpandingExtendedDismaxQParserPlugin.java
+############# SynonymExpandingExtendedDismaxQParserPlugin.java
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# CommunityHierarchyTree.java
+public class CommunityHierarchyTree {
+public static String getLang(HttpServletRequest req) {
+
+public static String getLang(HttpServletRequest req) throws Exception{
+
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# ShowTreeAction.java
+public class ShowTreeAction extends Action {
+############# TreeParams.java
+public class TreeParams {
+############# AdminUtil.java
+public class AdminUtil {
+public class AdminUtil {
+public static List<KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+public static String getLangName(String langID, HttpServletRequest request) throws Exception{
+
+public static String getLangID(HttpServletRequest request) throws Exception{
+
+############# PollEditor.java
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+private List<com.kanisa.commons.model.KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+############# CommunityHierarchyTree.java
+public class CommunityHierarchyTree {
+public static String getLang(HttpServletRequest req) {
+
+public static String getLang(HttpServletRequest req) throws Exception{
+
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# ShowTreeAction.java
+public class ShowTreeAction extends Action {
+############# TreeParams.java
+public class TreeParams {
+############# AdminUtil.java
+public class AdminUtil {
+public class AdminUtil {
+public static List<KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+public static String getLangID(HttpServletRequest request) throws Exception{
+
+############# PollEditor.java
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+############# FMManagerAction.java
+public class FMManagerAction extends DispatchAction {
+private FeedbackHandler handler=new FeedbackHandler();
+
+public ActionForward open(ActionMapping actionMapping, ActionForm actionForm, HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+public class FMManagerAction extends DispatchAction {
+############# UMMViewHelper.java
+public class UMMViewHelper {
+############# UMMainViewHelper.java
+public class UMMainViewHelper extends UMMViewHelper {
+public void init( HttpServletRequest request ) throws Exception {
+
+############# FlatConceptsAction.java
+public class FlatConceptsAction extends org.apache.struts.action.Action {
+############# ContentAlertFiltersAction.java
+public class ContentAlertFiltersAction extends Action {
+public class ContentAlertFiltersAction extends Action {
+private List getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+############# EmailTemplatesAction.java
+public class EmailTemplatesAction extends DispatchAction {
+public class EmailTemplatesAction extends DispatchAction {
+############# EnterpriseReputationLevels.java
+public class EnterpriseReputationLevels extends Action {
+############# KDVocabAction.java
+public class KDVocabAction extends org.apache.struts.action.Action
+public class KDVocabAction extends org.apache.struts.action.Action
+############# RSSFeedManagerAction.java
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+############# StopwordDispatchAction.java
+public class StopwordDispatchAction extends DispatchAction {
+public class StopwordDispatchAction extends DispatchAction {
+public class StopwordDispatchAction extends DispatchAction {
+private KNode getLanguageNode(String langID, HttpServletRequest req)
+
+public class StopwordDispatchAction extends DispatchAction {
+private String getSelectedLanguage(HttpServletRequest req) {
+
+private String getSelectedLanguage(HttpServletRequest req) throws Exception{
+
+private String getLangName(String langID, HttpServletRequest request)
+
+private StopwordsList escapeWords(String w[]) {
+
+public class StopwordDispatchAction extends DispatchAction {
+############# TaxoCRUDDispatchAction.java
+public class TaxoCRUDDispatchAction extends DispatchAction {
+public class TaxoCRUDDispatchAction extends DispatchAction {
+public class TaxoCRUDDispatchAction extends DispatchAction {
+############# SaveLanguageHelper.java
+public class SaveLanguageHelper implements Const {
+public static String fetchLanguage(HttpServletRequest request) {
+
+public static String fetchLanguage(HttpServletRequest request) throws Exception{
+
+public class SaveLanguageHelper implements Const {
+private static String getSessionLang(HttpServletRequest request) throws Exception{
+
+############# ShowEmailMasterTemplateAction.java
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+############# Res.java
+public final class Res {
+public final class Res {
+############# CommunityHierarchyTree.java
+public class CommunityHierarchyTree {
+public static String getLang(HttpServletRequest req) {
+
+public static String getLang(HttpServletRequest req) throws Exception{
+
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# ShowTreeAction.java
+public class ShowTreeAction extends Action {
+############# TreeParams.java
+public class TreeParams {
+############# AdminUtil.java
+public class AdminUtil {
+public class AdminUtil {
+public static List<KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+public static String getLangName(String langID, HttpServletRequest request) throws Exception{
+
+public static String getLangID(HttpServletRequest request) throws Exception{
+
+############# PollEditor.java
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+private List<com.kanisa.commons.model.KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+############# CommunityHierarchyTree.java
+public class CommunityHierarchyTree {
+public static String getLang(HttpServletRequest req) {
+
+public static String getLang(HttpServletRequest req) throws Exception{
+
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# ShowTreeAction.java
+public class ShowTreeAction extends Action {
+############# TreeParams.java
+public class TreeParams {
+############# AdminUtil.java
+public class AdminUtil {
+public class AdminUtil {
+public static List<KNode> getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+public static String getLangID(HttpServletRequest request) throws Exception{
+
+############# PollEditor.java
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+public class PollEditor extends Action {
+############# FMManagerAction.java
+public class FMManagerAction extends DispatchAction {
+private FeedbackHandler handler=new FeedbackHandler();
+
+public ActionForward open(ActionMapping actionMapping, ActionForm actionForm, HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+public class FMManagerAction extends DispatchAction {
+############# UMMViewHelper.java
+public class UMMViewHelper {
+############# UMMainViewHelper.java
+public class UMMainViewHelper extends UMMViewHelper {
+public void init( HttpServletRequest request ) throws Exception {
+
+############# FlatConceptsAction.java
+public class FlatConceptsAction extends org.apache.struts.action.Action {
+############# ContentAlertFiltersAction.java
+public class ContentAlertFiltersAction extends Action {
+public class ContentAlertFiltersAction extends Action {
+private List getLanguageList(HttpServletRequest request, String strSelectedLanguage) throws Exception {
+
+############# EmailTemplatesAction.java
+public class EmailTemplatesAction extends DispatchAction {
+public class EmailTemplatesAction extends DispatchAction {
+############# EnterpriseReputationLevels.java
+public class EnterpriseReputationLevels extends Action {
+############# KDVocabAction.java
+public class KDVocabAction extends org.apache.struts.action.Action
+public class KDVocabAction extends org.apache.struts.action.Action
+############# RSSFeedManagerAction.java
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+############# StopwordDispatchAction.java
+public class StopwordDispatchAction extends DispatchAction {
+public class StopwordDispatchAction extends DispatchAction {
+public class StopwordDispatchAction extends DispatchAction {
+private KNode getLanguageNode(String langID, HttpServletRequest req)
+
+public class StopwordDispatchAction extends DispatchAction {
+private String getSelectedLanguage(HttpServletRequest req) {
+
+private String getSelectedLanguage(HttpServletRequest req) throws Exception{
+
+private String getLangName(String langID, HttpServletRequest request)
+
+private StopwordsList escapeWords(String w[]) {
+
+public class StopwordDispatchAction extends DispatchAction {
+############# TaxoCRUDDispatchAction.java
+public class TaxoCRUDDispatchAction extends DispatchAction {
+public class TaxoCRUDDispatchAction extends DispatchAction {
+public class TaxoCRUDDispatchAction extends DispatchAction {
+############# SaveLanguageHelper.java
+public class SaveLanguageHelper implements Const {
+public static String fetchLanguage(HttpServletRequest request) {
+
+public static String fetchLanguage(HttpServletRequest request) throws Exception{
+
+public class SaveLanguageHelper implements Const {
+private static String getSessionLang(HttpServletRequest request) throws Exception{
+
+############# ShowEmailMasterTemplateAction.java
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+############# Res.java
+public final class Res {
+public final class Res {
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# SitePreferencesShowAction.java
+public class SitePreferencesShowAction extends UserProfileActionBase {
+public class SitePreferencesShowAction extends UserProfileActionBase {
+############# SubscribeContentAction.java
+public final class SubscribeContentAction extends UserProfileActionBase {
+############# EmailTemplatesAction.java
+public class EmailTemplatesAction extends DispatchAction {
+public class EmailTemplatesAction extends DispatchAction {
+############# AdminUtil.java
+public class AdminUtil {
+############# AdminUtil.java
+public class AdminUtil {
+############# FlatConceptsAction.java
+public class FlatConceptsAction extends org.apache.struts.action.Action {
+############# EmailTemplatesAction.java
+public class EmailTemplatesAction extends DispatchAction {
+
+public class EmailTemplatesAction extends DispatchAction {
+public class EmailTemplatesAction extends DispatchAction {
+############# EnterpriseReputationLevels.java
+public class EnterpriseReputationLevels extends Action {
+public class EnterpriseReputationLevels extends Action {
+############# RSSFeedManagerAction.java
+public class RSSFeedManagerAction extends DispatchAction {
+public class RSSFeedManagerAction extends DispatchAction {
+############# TaxoCRUDDispatchAction.java
+public class TaxoCRUDDispatchAction extends DispatchAction {
+############# ShowEmailMasterTemplateAction.java
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+public class ShowEmailMasterTemplateAction extends Action implements Const {
+############# DPMainServiceImpl.java
+private static Document convertStringToDocument(String xmlStr) throws IOExceptio
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+private boolean isXpathIitialized = false;
+
+private static XPathExpression pageletNameExpr = null;
+
+private static XPathExpression recommIdExpr = null;
+
+private static XPathExpression titleStaticExpr = null;
+
+private static XPathExpression synopsisStaticExpr = null;
+
+private static XPathExpression OriginalTextExpr = null;
+
+private static XPathExpression TextExpr = null;
+
+private static XPathExpression displayTypeExpr = null;
+
+private static XPathExpression pageletIdExpr = null;
+
+private static XPathExpression attachFileNameExpr = null;
+
+private static XPathExpression OriginalSynopsisExpr = null;
+
+private static XPathExpression synopsisExpr = null;
+
+private static XPathExpression displayRankExpr = null;
+
+private static XPathExpression extIdExpr = null;
+
+private static XPathExpression sliceIdExpr = null;
+
+private static XPathExpression linkTypeExpr = null;
+
+private static XPathExpression rfIdExpr = null;
+
+private static XPathExpression forumIdExpr = null;
+
+private static XPathExpression forumNameExpr = null;
+
+private static XPathExpression urlExpr = null;
+
+private XMLDog dog = null;
+
+private Expression pageletNameExpr = null;
+
+private Expression recommIdExpr = null;
+
+private Expression titleStaticExpr = null;
+
+private Expression synopsisStaticExpr = null;
+
+private Expression OriginalTextExpr = null;
+
+private Expression TextExpr = null;
+
+private Expression displayTypeExpr = null;
+
+private Expression pageletIdExpr = null;
+
+private Expression attachFileNameExpr = null;
+
+private Expression OriginalSynopsisExpr = null;
+
+private Expression synopsisExpr = null;
+
+private Expression displayRankExpr = null;
+
+private Expression extIdExpr = null;
+
+private Expression sliceIdExpr = null;
+
+private Expression linkTypeExpr = null;
+
+private Expression rfIdExpr = null;
+
+private Expression forumIdExpr = null;
+
+private Expression forumNameExpr = null;
+
+private Expression urlExpr = null;
+
+public SearchManager() {
+
+public class SearchManager implements SearchManagerRemote{
+private void initializeXpaths(){
+
+public class SearchManager implements SearchManagerRemote{
+public Object call() throws Exception {
+
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# JdbcLoginModule.java
+public class JdbcLoginModule implements LoginModule {
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public boolean isIE(){
+
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void setAdvisoriesSectionExpanded(boolean isExpanded);
+
+public  DynamicForm getForm();
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+private ClickHandler createViewHelpHandler() {
+
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public boolean isIE(){
+
+public static native String getUserAgent() /*-{
+
+############# CEConstants.java
+public interface CEConstants extends CAConstants {
+public String deselectRadio();
+
+public String getLoadingMsg();
+
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+public void setAdvisoriesSectionExpanded(boolean isExpanded);
+
+public  DynamicForm getForm();
+
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+private ClickHandler createViewHelpHandler() {
+
+############# CEFeedbackTabView.java
+public class CEFeedbackTabView extends ViewImpl implements CEFeedbackTabPresente
+public CEFeedbackTabView() {
+
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+private Img viewHelpIcon;
+
+private Timer elapsedTimer;
+
+private int areaCounter = 0;
+
+private int height = 0;
+
+private int batchSize = 3;
+
+private int start = 3;
+
+private int totalSize = 0;
+
+private List<HLayout> areaList = new ArrayList<>();
+
+private int loadingCounter = 0;
+
+public ContentTabView() {
+
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+public HasClickHandlers getViewHelpIcon(){
+
+public void showArea(){
+
+public void run() {
+
+private void showAreas(){
+
+private void cancelTimer(){
+
+############# HistoryTabView.java
+public class HistoryTabView extends ViewImpl implements HistoryTabPresenter.MyVi
+public HistoryTabView() {
+
+############# NotesTabView.java
+public class NotesTabView extends ViewImpl implements NotesTabPresenter.MyView {
+public NotesTabView() {
+
+############# SynonymExpandingExtendedDismaxQParserPlugin.java
+############# SynonymExpandingExtendedDismaxQParserPlugin.java
+############# SynonymExpandingExtendedDismaxQParserPlugin.java
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+private String getRatingBoostFunction() {
+
+############# ContentEditorServiceImpl.java
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+public boolean isKsm;
+
+private String tempguid;
+
+private int CONTENT_AREA = 0;
+
+public ContentEditorServiceImpl() {
+
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+public String parseImageData(String content)
+
+public String parseImageData(String content, DocData docData)
+
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+############# DocUTCompare.java
+public class DocUTCompare {
+public class DocUTCompare {
+public class DocUTCompare {
+############# PublishingManager.java
+public class PublishingManager {
+############# HotTopicsAction.java
+public class HotTopicsAction extends Action {
+
+private static final String HOT_TOPICS = "hottopics";
+
+private static final String SORT_BY = "sortByOverridedd_home";
+
+public static final String SORT_BY = "sortByOverridedd_home";
+
+public static final String START_DOCUMENT = "startDocumentdd_home";
+
+public ActionForward execute(ActionMapping mapping, ActionForm form,
+
+############# MicrositeAction.java
+public class MicrositeAction extends Action {
+############# DPMasterServiceImpl.java
+public class DPMasterServiceImpl implements IDPMasterService {
+############# SearchService.java
+public class SearchService {
+private static final String KCEXTERNALURL = "KCExternalURL";
+
+private static final String RATING = "Rating";
+
+private static final String COUNT = "Count";
+
+private static ConfigDataImpl configDataImpl;
+
+public static KCDocInfoResponse getKCInfo(String externalId, String sliceId, String gmtOffset, 
+
+public class SearchService {
+private static String getText(String url) throws Exception {
+
+public class SearchService {
+private static String getUrl(String url) throws Exception{
+
+############# LoginAction.java
+public class LoginAction extends Action {
+############# SynonymExpandingExtendedDismaxQParserPlugin.java
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# EditorConfig.java
+public interface EditorConfig extends CAConstants {
+
+public String toolbarStartupExpanded();
+
+############# ContentTabView.java
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+private static Binder uiBinder = GWT.create(Binder.class);
+
+public class ContentTabView extends ViewImpl implements ContentTabPresenter.MyVi
+############# HTMLEditor.java
+public class HTMLEditor extends VLayout {
+private CKEditorExtended editor;
+
+private String editorId;
+
+private boolean toolbarStartupExpanded = true;
+
+public HTMLEditor() {
+
+public class HTMLEditor extends VLayout {
+public HTMLEditor(CKEditorConfig config,String userId, String toolbarStartupExpanded) {
+
+private void createEditor(CKConfig config,String userId){
+
+public class HTMLEditor extends VLayout {
+############# SearchManager.java
+public class SearchManager implements SearchManagerRemote{
+private static Object sync = null;
+
+private static Thread syncThread;
+
+private boolean isXpathIitialized = false;
+
+private static XPathExpression pageletNameExpr = null;
+
+private static XPathExpression recommIdExpr = null;
+
+private static XPathExpression titleStaticExpr = null;
+
+private static XPathExpression synopsisStaticExpr = null;
+
+private static XPathExpression OriginalTextExpr = null;
+
+private static XPathExpression TextExpr = null;
+
+private static XPathExpression displayTypeExpr = null;
+
+private static XPathExpression pageletIdExpr = null;
+
+private static XPathExpression attachFileNameExpr = null;
+
+private static XPathExpression OriginalSynopsisExpr = null;
+
+private static XPathExpression synopsisExpr = null;
+
+private static XPathExpression displayRankExpr = null;
+
+private static XPathExpression extIdExpr = null;
+
+private static XPathExpression sliceIdExpr = null;
+
+private static XPathExpression linkTypeExpr = null;
+
+private static XPathExpression rfIdExpr = null;
+
+private static XPathExpression forumIdExpr = null;
+
+private static XPathExpression forumNameExpr = null;
+
+private static XPathExpression urlExpr = null;
+
+public SearchManager() {
+
+public class SearchManager implements SearchManagerRemote{
+private void initializeXpaths(){
+
+private int getMonthsToKeepAutoFillQueries() {
+
+public class SearchManager implements SearchManagerRemote{
+private static String fixInnerXmlText(String source, String[] tags) {
+
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+public class SearchManager implements SearchManagerRemote{
+############# ContentEditorServiceImpl.java
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+############# ContentEditorServiceImpl.java
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+############# DPMainServiceImpl.java
+public class DPMainServiceImpl implements IDPMainService, IDPWorkLFCListener {
+public class DPMainServiceImpl implements IDPMainService, IDPWorkLFCListener {
+private void process(DPBatch batch) throws NamingException{
+
+############# ContributionMDB.java
+public class ContributionMDB implements MessageListener {
+############# ContributionProcessor.java
+public class ContributionProcessor implements ContributionProcessorRemote, Contr
+public String[] deleteDocs(String[] ids) {
+
+public String[] deleteDocs(ProcessContributeDoc[] contrDocs) {
+
+############# ContributionProcessorRemote.java
+public interface ContributionProcessorRemote {
+
+public void processDocs(ContributionDocument[] docs, boolean overwrite);
+
+public String[] deleteDocs(String[] id);
+
+public String[] deleteDocs(ProcessContributeDoc[] contrDocs);
+
+public void increaseFieldValuesSolr(Map<String, Long> solrDocsQueue, String fieldName, boolean checkDocsExist);
+
+public List<String> findIds(ContributionDocument searchDoc);
+
+############# ProcessContributeDoc.java
+public class ProcessContributeDoc implements Serializable{
+
+private String externalId;
+
+private String sliceId;
+
+public String getExternalId() {
+
+public void setExternalId(String externalId) {
+
+public String getSliceId() {
+
+public void setSliceId(String sliceId) {
+
+############# DocumentPreviewDialogPresenter.java
+public class DocumentPreviewDialogPresenter extends PresenterWidget<DocumentPrev
+private Logger logger = Logger.getLogger( DocumentPreviewDialogPresenter.class.getName() );	
+
+private ContentEditorServiceAsync contentEditorService = GWT.create(ContentEditorService.class);
+
+private DocData docData;
+
+private String content;
+
+public interface MyView extends PopupView {
+
+public class DocumentPreviewDialogPresenter extends PresenterWidget<DocumentPrev
+public void onSuccess(String contents) {
+
+public void onResized(ResizedEvent event) {
+
+public class DocumentPreviewDialogPresenter extends PresenterWidget<DocumentPrev
+public void onSuccess(String contents) {
+
+private native void setIFrameContents(String contents) /*-{
+
+private void setHtmlPaneHeight(int height){
+
+private native void setIFrameContents(String contents, int height) /*-{
+
+public class DocumentPreviewDialogPresenter extends PresenterWidget<DocumentPrev
+############# DocumentPreviewDialogView.java
+public class DocumentPreviewDialogView extends ApplicationPopupViewImpl<Document
+public class DocumentPreviewDialogView extends ApplicationPopupViewImpl<Document
+public DynamicForm getForm() {
+
+public Window getWindow() {
+
+############# NonThreadedKCUtil.java
+public class NonThreadedKCUtil {
+public static String highlightHtmlUsingUrl(String strExtId, String strSliceId, String strStateId, URL url, boolean isText, boolean isKSMDoc, boolean isHighLight) throws Exception {
+
+public class NonThreadedKCUtil {
+private static boolean checkBaseHref(String content) {
+
+public static String getContent(URL url, boolean isText) throws Exception {
+
+############# NonThreadedKCWidget.java
+public class NonThreadedKCWidget extends BaseKCWidget {
+public class NonThreadedKCWidget extends BaseKCWidget {
+private Boolean checkXFrame(URL url){
+
+private String getRFIncidentID( HttpServletRequest request ) {
+
+############# BaseHTMLUtil.java
+public class BaseHTMLUtil {
+############# AUtil.java
+public class AUtil {
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+private GridViewData prepareData(List<ViewColumnData> columns, GridData gridData, ResourceBundle rb, 
+
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+private String prepareUMData(List<String> itemIds, String languageId, Locale locale ) {
+
+private String prepareUMData(List<String> itemIds, String languageId, Locale locale, HashMap<String,String> params ) {
+
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# SearchPresenter.java
+public class SearchPresenter {
+public void onFailure( Throwable e ) {                
+
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# SearchAction.java
+public class SearchAction extends BaseAction implements Action<SearchActionResul
+private int portionSize;
+
+private boolean isExport = false;
+
+public class SearchAction extends BaseAction implements Action<SearchActionResul
+public boolean isExport() {
+
+public void setExport(boolean isExport) {
+
+############# AUtil.java
+public class AUtil {
+############# GridViewServiceImpl.java
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+private GridViewData prepareData(List<ViewColumnData> columns, GridData gridData, ResourceBundle rb, 
+
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+private String prepareUMData(List<String> itemIds, String languageId, Locale locale ) {
+
+private String prepareUMData(List<String> itemIds, String languageId, Locale locale, HashMap<String,String> params ) {
+
+public class GridViewServiceImpl extends RemoteServiceServlet implements GridVie
+############# SearchPresenter.java
+public class SearchPresenter {
+public void onFailure( Throwable e ) {                
+
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# SearchAction.java
+public class SearchAction extends BaseAction implements Action<SearchActionResul
+private int portionSize;
+
+private boolean isExport = false;
+
+public class SearchAction extends BaseAction implements Action<SearchActionResul
+public boolean isExport() {
+
+public void setExport(boolean isExport) {
+
+############# UMPageletBrowseModelProvider.java
+public class UMPageletBrowseModelProvider extends UMBasicTreeModelProvider {
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# AssignTemplatePresenter.java
+public class AssignTemplatePresenter extends PresenterWidget<AssignTemplatePrese
+public void execute(Boolean shouldContinue) {
+
+public class AssignTemplatePresenter extends PresenterWidget<AssignTemplatePrese
+public void execute(Boolean shouldContinue) {
+
+############# MessageDialog.java
+public class MessageDialog{
+public static byte BUTTON_2 = 2;
+
+public static byte BUTTON_3 = 3;
+
+public static void askDialog2ButtonsChange( String message, String button1, String button2, byte defaultbutton,  final BooleanCallback callback){
+
+public static void askDialog2Buttons( String message, String button1, String button2, byte defaultbutton,  final BooleanCallback callback){
+
+############# AssignTemplatePresenter.java
+public class AssignTemplatePresenter extends PresenterWidget<AssignTemplatePrese
+public void execute(Boolean shouldContinue) {
+
+public class AssignTemplatePresenter extends PresenterWidget<AssignTemplatePrese
+public void execute(Boolean shouldContinue) {
+
+############# MessageDialog.java
+public class MessageDialog{
+public static byte BUTTON_2 = 2;
+
+public static byte BUTTON_3 = 3;
+
+public static void askDialog2ButtonsChange( String message, String button1, String button2, byte defaultbutton,  final BooleanCallback callback){
+
+public static void askDialog2Buttons( String message, String button1, String button2, byte defaultbutton,  final BooleanCallback callback){
+
+############# ProcessRequest.java
+public class ProcessRequest {
+public void setMsid(String msid) {
+
+public String getMsid() {
+
+############# ProcessRequest.java
+public class ProcessRequest {
+public void setMsid(String msid) {
+
+public String getMsid() {
+
+############# ProcessRequest.java
+public class ProcessRequest {
+public void setMsid(String msid) {
+
+public String getMsid() {
+
+############# TaxoRetrieverServer.java
+public class TaxoRetrieverServer extends DoveIfTaxoRetrieverServer implements
+private void loadLanguages(){
+
+publicly display, publicly perform, sublicense, and distribute the
+private
+private
+publicdomain/zero/1.0/ */
+private
+private
+public
+public
+private
+private
+public
+public
+private
+public
+public
+private
+private
+private
+private
+public
+public
+public
+public
+public
+private
+public
+public
+private
+private
+public/fcd15444-1.pdf
+public/developer/en/ps/sdk/5116.DCT_Filter.pdf)
+private
+private
+publicdomain/zero/1.0/ */
+privateDict.subrsIndex,
+privateDict.subrsIndex;
+privateDict = this.createDict(CFFPrivateDict, [],
+privateDict = privateDict;
+private dict, do nothing
+privateOffset = parentDict.getByName('Private');
+privateOffset) || privateOffset.length !== 2) {
+privateOffset[0];
+privateOffset[1];
+privateDictEnd = offset + size;
+privateDictEnd);
+privateDict = this.createDict(CFFPrivateDict, dict,
+privateDict = privateDict;
+private dict.
+privateDict.getByName('Subrs')) {
+privateDict.getByName('Subrs');
+privateDict.subrsIndex = subrsIndex.obj;
+privateDict = null;
+privateDict && fontDict.hasName('Private'),
+private dictionary.');
+privateDict = fontDict.privateDict;
+privateDictTracker = new CFFOffsetTracker();
+privateDictData = this.compileDict(privateDict, privateDictTracker);
+privateDictTracker.offset(outputLength);
+privateDictData.length) {
+private dictionary was empty, set the output length to zero to
+privateDictData.length, outputLength],
+privateDictData);
+privateDict.subrsIndex && privateDict.hasName('Subrs')) {
+privateDict.subrsIndex);
+privateDictTracker.setEntryLocation('Subrs', [privateDictData.length],
+private use area
+privateDict && cff.topDict.privateDict.subrsIndex &&
+privateDict.subrsIndex.objects),
+privateData = Object.create(null);
+privateData['lenIV'] = 4;
+privateData': privateData
+privateData['lenIV'];
+privateData['lenIV'];
+privateData[token] = blueArray;
+privateData[token] = this.readNumberArray();
+privateData[token] =
+privateData[token] = this.readNumber();
+privateData[token] = this.readBoolean();
+private use area since they will not be drawn by
+private use area.
+privateDict = new CFFPrivateDict();
+privateDict.setByName('Subrs', null); // placeholder
+privateData)) {
+privateData[field];
+private dictionary array data in CFF must be stored as
+privateDict.setByName(field, value);
+privateDict = privateDict;
+privateDict.subrsIndex = subrIndex;
+public properties using a data object.
+public
+public
+public
+public
+public
+private
+private
+public
+public
+public
+public
+public
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+publicly display, publicly perform, sublicense, and distribute the
+private
+private
+publicdomain/zero/1.0/ */
+private
+private
+public
+public
+private
+private
+public
+public
+private
+public
+public
+private
+private
+private
+private
+public
+public
+public
+public
+public
+private
+public
+public
+private
+private
+public/fcd15444-1.pdf
+public/developer/en/ps/sdk/5116.DCT_Filter.pdf)
+private
+private
+publicdomain/zero/1.0/ */
+privateDict.subrsIndex,
+privateDict.subrsIndex;
+privateDict = this.createDict(CFFPrivateDict, [],
+privateDict = privateDict;
+private dict, do nothing
+privateOffset = parentDict.getByName('Private');
+privateOffset) || privateOffset.length !== 2) {
+privateOffset[0];
+privateOffset[1];
+privateDictEnd = offset + size;
+privateDictEnd);
+privateDict = this.createDict(CFFPrivateDict, dict,
+privateDict = privateDict;
+private dict.
+privateDict.getByName('Subrs')) {
+privateDict.getByName('Subrs');
+privateDict.subrsIndex = subrsIndex.obj;
+privateDict = null;
+privateDict && fontDict.hasName('Private'),
+private dictionary.');
+privateDict = fontDict.privateDict;
+privateDictTracker = new CFFOffsetTracker();
+privateDictData = this.compileDict(privateDict, privateDictTracker);
+privateDictTracker.offset(outputLength);
+privateDictData.length) {
+private dictionary was empty, set the output length to zero to
+privateDictData.length, outputLength],
+privateDictData);
+privateDict.subrsIndex && privateDict.hasName('Subrs')) {
+privateDict.subrsIndex);
+privateDictTracker.setEntryLocation('Subrs', [privateDictData.length],
+private use area
+privateDict && cff.topDict.privateDict.subrsIndex &&
+privateDict.subrsIndex.objects),
+privateData = Object.create(null);
+privateData['lenIV'] = 4;
+privateData': privateData
+privateData['lenIV'];
+privateData['lenIV'];
+privateData[token] = blueArray;
+privateData[token] = this.readNumberArray();
+privateData[token] =
+privateData[token] = this.readNumber();
+privateData[token] = this.readBoolean();
+private use area since they will not be drawn by
+private use area.
+privateDict = new CFFPrivateDict();
+privateDict.setByName('Subrs', null); // placeholder
+privateData)) {
+privateData[field];
+private dictionary array data in CFF must be stored as
+privateDict.setByName(field, value);
+privateDict = privateDict;
+privateDict.subrsIndex = subrIndex;
+public properties using a data object.
+public
+public
+public
+public
+public
+private
+private
+public
+public
+public
+public
+public
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+private
+############# RecommendationWidget.java
+public class RecommendationWidget extends GenericWidget {

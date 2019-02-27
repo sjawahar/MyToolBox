@@ -1,0 +1,265 @@
+############# KDCReaderServiceImpl.java
+public class KDCReaderServiceImpl implements IKDCReaderService {
+public class KDCReaderServiceImpl implements IKDCReaderService {
+private KDCDocResultDTO[] readAllDocsByBatches(TableSpaceID[] tsids,
+############# BaseHTMLUtil.java
+public class BaseHTMLUtil {
+public class BaseHTMLUtil {
+private static final String DETAG_CONFIGURATION_FILE = "tags_filter.config";
+private static final String FILENAME_ROOT = "Kanisa/Kanisa Platform/KsmProcessor/validateRegex";
+public static String detagger(String text) {
+public class BaseHTMLUtil {
+public static boolean IsValidateRegex() {
+public static String detagFile(String src, String dest) {
+public class BaseHTMLUtil {
+############# ExportListGridToExcelAction.java
+public class ExportListGridToExcelAction extends  Action {
+############# ExportListGridToExcelAction.java
+public class ExportListGridToExcelAction extends  Action {
+############# DialogRequest.java
+public class DialogRequest extends com.kanisa.services.DialogRequest
+############# KDoc.java
+public class KDoc {
+public String getURL() {
+public class KDoc {
+############# KDoc.java
+public class KDoc {
+public String getURL() {
+############# WebPageRetriever.java
+public class WebPageRetriever {
+public static String decode(String s){
+public class WebPageRetriever {
+############# DPDCNBatchCompletionServiceImpl.java
+public class DPDCNBatchCompletionServiceImpl implements IDPBatchCompletionLocalS
+public class DPDCNBatchCompletionServiceImpl implements IDPBatchCompletionLocalS
+############# NonThreadedKCUtil.java
+public class NonThreadedKCUtil {
+public static String highlightHtml(String strExtId, String strSliceId, String strStateId, String strContent) throws Exception {
+public class NonThreadedKCUtil {
+public class NonThreadedKCUtil {
+############# GridViewData.java
+public class GridViewData  implements Serializable {
+public class GridViewData  implements IsSerializable {
+private ArrayList<HashMap<String, Object>> documents;
+private Integer totalNumberOfRecord = 0;
+public class GridViewData  implements Serializable {
+private Integer validatedPageNumber = 0;
+private Integer itemsPerPage = 0;
+private Long proxyVariable;
+public:
+############# DocsGridDaoImpl.java
+public class DocsGridDaoImpl extends BaseJdbcDao implements DocsGridDao {
+private static final Integer COLUMN_TYPE_STR_LIKE = 2;
+private static final Integer COLUMN_TYPE_DATE = 3;
+private static final Integer COLUMN_TYPE_INT = 4;
+private static final Integer COLUMN_TYPE_BOOLEAN = 5;		
+private static final Integer COLUMN_TYPE_BOOLEAN = 5;
+private static final Integer COLUMN_TYPE_LONG = 6;	
+private static final String MIN = "Min";
+private static final String MAX = "Max";
+public class DocsGridDaoImpl extends BaseJdbcDao implements DocsGridDao {
+public class DocsGridDaoImpl extends BaseJdbcDao implements DocsGridDao {
+public:
+############# UserJdbcDao.java
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+private static final String setAuthoringSegmentsSQL = "insert into " + IM_AUTHORING_SEGMENTS + "(objectId, conceptId) " +
+private static final String getSegmentIDSQL = "select tx_conceptId from " + TX_CONCEPT + " where tx_id = ?";
+private static final String getLanguageIDSQL= "select tx_conceptId from " + TX_CONCEPT + " where tx_id = ? and TX_DELETED = '0'";
+private static final String insertAccessLevelsSQL = "insert into " + IM_ACCESS_LEVELS + "(objectId, conceptId) " +
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+private static final String selectTXName = "SELECT tx_name FROM " + TX_CONCEPTNAME + " WHERE TX_CONCEPTID = ?";
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public void logMessage(String segments,String messageToDisplay){
+public void setAccessLevels(Transaction trans, int imObjectId, String[] nodeIds) throws DataBackendException {
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+public class UserJdbcDao extends BaseJdbcDao implements UserDao {
+############# UserGroupUtil.java
+public class UserGroupUtil {
+private boolean overwrite;
+private Date fromDate;
+private boolean reqWithId;
+public boolean isReqWithId() {
+public class UserGroupUtil {
+public class UserGroupUtil {
+############# SpellCheckUtil.java
+public class SpellCheckUtil extends DefaultHandler {
+private ArrayList<String> wordsToCheck;
+private List<Integer> lineEndIndices;
+private Locator locator;
+private boolean isHttpStart = false;
+public SpellCheckUtil(String strXTHML) {
+public class SpellCheckUtil extends DefaultHandler {
+public void characters(char[] ch, int start, int length) throws org.xml.sax.SAXException {
+public class SpellCheckUtil extends DefaultHandler {
+############# ContributionHelper.java
+public class ContributionHelper extends com.kanisa.kbContrib.ContributionHelper
+public class ContributionHelper extends com.kanisa.kbContrib.ContributionHelper
+############# KDoc.java
+public class KDoc {
+public String getURL() {
+############# FieldQuery.java
+public class FieldQuery {
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# DialogRequest.java
+public class DialogRequest
+public void addPublished(String segment) {
+############# RecommendationWidget.java
+public class RecommendationWidget extends GenericWidget {
+private String pageletId = "";
+public static String KCP_UNPUBLISH = "KCP_Unpublish";
+public class RecommendationWidget extends GenericWidget {
+public class RecommendationWidget extends GenericWidget {
+public:
+############# SearchPresenter.java
+public class SearchPresenter {
+############# UMSelectorItem.java
+public class UMSelectorItem  extends SearchEntrySelectorItem{
+############# SearchActionHandler.java
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+public class SearchActionHandler implements ActionHandler<SearchAction, SearchAc
+############# UMSelectorServiceImpl.java
+public class UMSelectorServiceImpl extends RemoteServiceServlet implements UMSel
+############# ContributionHelper.java
+public class ContributionHelper extends com.kanisa.kbContrib.ContributionHelper
+public class ContributionHelper extends com.kanisa.kbContrib.ContributionHelper
+public class ContributionHelper extends com.kanisa.kbContrib.ContributionHelper
+public:
+############# ContentEditorServiceImpl.java
+public class ContentEditorServiceImpl extends RemoteServiceServlet implements Co
+############# ContentTabPresenter.java
+public class ContentTabPresenter extends PresenterWidget<ContentTabPresenter.MyV
+############# SpellCheckerView.java
+public class SpellCheckerView extends Window{
+private String unescapeStr(String tempContent) {
+############# SpellCheckContentHandler.java
+public class SpellCheckContentHandler extends DefaultHandler
+private ArrayList<String> wordsToCheck;
+private List<Integer> lineEndIndices;
+private Locator locator;
+private boolean isHttpStart = false;
+public SpellCheckContentHandler(String strXTHML)
+public class SpellCheckContentHandler extends DefaultHandler
+public class SpellCheckContentHandler extends DefaultHandler
+############# SubscriptionJdbcDao.java
+public class SubscriptionJdbcDao extends BaseJdbcDao implements SubscriptionDao
+############# DocumentTable.java
+public class DocumentTable {
+public String getDocumentId() {
+public void setDocumentId(String documentId) {
+public int getVersion() {
+public void setVersion(int version) {
+public String getContent() {
+public void setContent(String content) {
+public int getTemplateId() {
+public void setTemplateId(int templateId) {
+############# UpdateTemplateValue.java
+public class UpdateTemplateValue {
+private static Logger log = KLogger.getLogger(UpdateTemplateValue.class);
+private static final String SPRING_CONTEXT_FILENAME = "UpdateTemplateValue_services.xml";
+private static SimpleJdbcTemplate jdbc;
+public static void main(String[] args) {
+private static void updateDocumentTable(DocumentTable doc, String docXML) {
+private static List<DocumentTable> getDocuments() {
+public DocumentTable mapRow(ResultSet rs, int row) throws SQLException {
+############# DocUTCompare.java
+public class DocUTCompare {
+private Map<String,String> content = new LinkedHashMap<String,String> ();
+private Map<String,List<String>> fle = new HashMap<String,List<String>>();    
+private Map<String,List<DocLink>> links = new HashMap<String,List<DocLink>>();
+private Map<String, String> mapIdName = new HashMap<String, String>();
+public DocUTCompare(Template template, DocContent docContent) {
+public class DocUTCompare {
+private void getIdWithName(ContentArea template){
+private void compareContentAreas() {		
+public class DocUTCompare {
+public class DocUTCompare {
+public class DocUTCompare {
+############# ProcessRequest.java
+public class ProcessRequest {
+############# CEConstants.java
+public interface CEConstants extends CAConstants {
+public String addToAllCAs();
+public String notAvailable();
+public String invalidRequestParam();
+############# SelectALsDocumentDialogPresenter.java
+public class SelectALsDocumentDialogPresenter extends PresenterWidget<SelectALsD
+public TreeGrid getAccessLevelsTreeGrid();
+public HasClickHandlers getBtnAdd();
+public HasClickHandlers getBtnRemove();
+public String getLabelNotAvailable();
+public class SelectALsDocumentDialogPresenter extends PresenterWidget<SelectALsD
+public class SelectALsDocumentDialogPresenter extends PresenterWidget<SelectALsD
+private String getOriginalAccessLevelsName(String accessLevelName) {
+private void addRecordsToList(ListGridRecord[] records) {
+############# SelectALsDocumentDialogView.java
+public class SelectALsDocumentDialogView extends ApplicationPopupViewImpl<Select
+private VStack vStackRemoveButton;
+private VStack vStackAddButton;
+private String labelNotAvailable;
+public class SelectALsDocumentDialogView extends ApplicationPopupViewImpl<Select
+public String getLabelNotAvailable() {
+public Widget asWidget() {
+public class SelectALsDocumentDialogView extends ApplicationPopupViewImpl<Select
+public class SelectALsDocumentDialogView extends ApplicationPopupViewImpl<Select
+############# ContentEditorConstants.java
+public class ContentEditorConstants implements IsSerializable {
+public static final String ADD_TO_ALL_CONTENT_AREAS = "label.dialog.addToAllCAs";
+public static final String BUTTON_ADD = "button.dialog.add";
+public static final String BUTTON_REMOVE = "button.dialog.remove";
+public static final String NOT_AVAILABLE = "label.dialog.notAvailable";
+public static final class PermissionTypes{
+############# ListAreaItemBuilder.java
+public class ListAreaItemBuilder extends AreaItemBuilder{
+public class ListAreaItemBuilder extends AreaItemBuilder{
+############# AbstractViewBuilder.java
+public abstract class AbstractViewBuilder implements ViewBuilder{
+private boolean canClone() {
+############# FeedbackRecordView.java
+public class FeedbackRecordView extends ViewImpl implements FeedbackRecordPresen
+############# Indexer.java
+public class Indexer {
+public class Indexer {
+public class Indexer {
+public class Indexer {
+############# IndexingStatus.java
+public class IndexingStatus {
+private IndexingStats m_stats = new IndexingStats();
+public class IndexingStatus {
+private String getOperationAsString(int operation)
+############# FeedBackUpgrader.java
+public class FeedBackUpgrader {
+public class FeedBackUpgrader {
+public static void  deleteFavoriteFeedback(String threadId)
+############# TaxonomyJdbcDAO.java
+public class TaxonomyJdbcDAO extends BaseJdbcDao implements TaxonomyDAO {
+public class TaxonomyJdbcDAO extends BaseJdbcDao implements TaxonomyDAO {
+public class TaxonomyJdbcDAO extends BaseJdbcDao implements TaxonomyDAO {
+private void loadConceptsProperties( Connection conn, Map<Integer, DBConcept> concepts, 
+private void loadConceptsProperties( Connection conn, Map<Integer, DBConcept> concepts, Integer txId , int fromIndex, int toIndex )
+public:
+public IDimensionLookup
+public:
+public:
+public:
+############# ToolBarPresenter.java
+public class ToolBarPresenter extends PresenterWidget<ToolBarPresenter.MyView> i
+private void checkDraftVersionExists(){
+public void execute(Boolean isOk) {
+public void onFailure(Throwable e) {
+public void onSuccess(Boolean isDraftDeleted) {
+private void deleteDocument(){
+############# SearchHelper.java
+public class SearchHelper implements IfSearchHelper {
+############# LanguageHandler.java
+public class LanguageHandler {
+private static String getDisplayLocale( String languageId ) {
+public static String getDisplayLocale( String languageId ) {
+public class LanguageHandler {
+############# LanguageWebImpl.java
+public class LanguageWebImpl {
