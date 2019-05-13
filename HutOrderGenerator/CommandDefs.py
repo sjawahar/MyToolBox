@@ -14,7 +14,7 @@ def get_fulldiff(commit_list):
         os.system('git.exe diff-tree -p -r ' + commit)
 
 def get_loc(file):
-    os.system('cloc --xml --quiet '+file)
+    os.system('cloc --xml --quiet '+'"'+file+'"')
 
 def call_func(args):
     if args[1] == 'get_gitlog':

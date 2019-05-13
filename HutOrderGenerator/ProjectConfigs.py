@@ -1,12 +1,13 @@
 repository_path = {
-    "C:\\Users\\selva\\Projects\\xo\\KnovaMigrated\\Avolin-Knova-Main" : ['develop','master'],
-    "C:\\Users\\selva\\Projects\\xo\\KnovaMigrated\\Knova" : ['develop','master']
+    "D:\\Data\\Projects\\xo\\Pivotal\\scratchpad\\UXUserManagement661" : ['master']
 }
 
 lang_extn = [
-    '.java',
-    '.cpp'
+    '.cs',
+    '.js'
 
 ]
 
 Commit_Count = 100
+
+
